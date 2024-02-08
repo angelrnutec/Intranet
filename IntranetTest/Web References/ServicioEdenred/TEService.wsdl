@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="urn:ERMX.Services" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TEService" targetNamespace="urn:ERMX.Services" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpsBinding_ITEService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Lax />
+              </wsp:Policy>
+            </sp:Layout>
+            <sp:IncludeTimestamp />
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <sp:SignedSupportingTokens xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+              <wsp:Policy>
+                <sp:WssUsernameToken10 />
+              </wsp:Policy>
+            </sp:UsernameToken>
+          </wsp:Policy>
+        </sp:SignedSupportingTokens>
+        <sp:Wss10 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy />
+        </sp:Wss10>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="urn:ERMX.Services/Imports">
+      <xsd:import schemaLocation="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd0" namespace="urn:ERMX.Services" />
+      <xsd:import schemaLocation="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Request" />
+      <xsd:import schemaLocation="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities" />
+      <xsd:import schemaLocation="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Response" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITEService_CardBalanceAssignment_InputMessage">
+    <wsdl:part name="parameters" element="tns:CardBalanceAssignment" />
+  </wsdl:message>
+  <wsdl:message name="ITEService_CardBalanceAssignment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CardBalanceAssignmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITEService_CardBalanceAdjustment_InputMessage">
+    <wsdl:part name="parameters" element="tns:CardBalanceAdjustment" />
+  </wsdl:message>
+  <wsdl:message name="ITEService_CardBalanceAdjustment_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CardBalanceAdjustmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITEService_CardGetList_InputMessage">
+    <wsdl:part name="parameters" element="tns:CardGetList" />
+  </wsdl:message>
+  <wsdl:message name="ITEService_CardGetList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CardGetListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITEService_TestToConsume_InputMessage">
+    <wsdl:part name="parameters" element="tns:TestToConsume" />
+  </wsdl:message>
+  <wsdl:message name="ITEService_TestToConsume_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TestToConsumeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITEService">
+    <wsdl:operation name="CardBalanceAssignment">
+      <wsdl:input wsaw:Action="urn:ERMX.Services/ITEService/CardBalanceAssignment" message="tns:ITEService_CardBalanceAssignment_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ERMX.Services/ITEService/CardBalanceAssignmentResponse" message="tns:ITEService_CardBalanceAssignment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CardBalanceAdjustment">
+      <wsdl:input wsaw:Action="urn:ERMX.Services/ITEService/CardBalanceAdjustment" message="tns:ITEService_CardBalanceAdjustment_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ERMX.Services/ITEService/CardBalanceAdjustmentResponse" message="tns:ITEService_CardBalanceAdjustment_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CardGetList">
+      <wsdl:input wsaw:Action="urn:ERMX.Services/ITEService/CardGetList" message="tns:ITEService_CardGetList_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ERMX.Services/ITEService/CardGetListResponse" message="tns:ITEService_CardGetList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TestToConsume">
+      <wsdl:input wsaw:Action="urn:ERMX.Services/ITEService/TestToConsume" message="tns:ITEService_TestToConsume_InputMessage" />
+      <wsdl:output wsaw:Action="urn:ERMX.Services/ITEService/TestToConsumeResponse" message="tns:ITEService_TestToConsume_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ITEService" type="tns:ITEService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CardBalanceAssignment">
+      <soap:operation soapAction="urn:ERMX.Services/ITEService/CardBalanceAssignment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CardBalanceAdjustment">
+      <soap:operation soapAction="urn:ERMX.Services/ITEService/CardBalanceAdjustment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CardGetList">
+      <soap:operation soapAction="urn:ERMX.Services/ITEService/CardGetList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestToConsume">
+      <soap:operation soapAction="urn:ERMX.Services/ITEService/TestToConsume" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpsBinding_ITEService" type="tns:ITEService">
+    <wsp:PolicyReference URI="#BasicHttpsBinding_ITEService_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CardBalanceAssignment">
+      <soap:operation soapAction="urn:ERMX.Services/ITEService/CardBalanceAssignment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CardBalanceAdjustment">
+      <soap:operation soapAction="urn:ERMX.Services/ITEService/CardBalanceAdjustment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CardGetList">
+      <soap:operation soapAction="urn:ERMX.Services/ITEService/CardGetList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestToConsume">
+      <soap:operation soapAction="urn:ERMX.Services/ITEService/TestToConsume" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TEService">
+    <wsdl:port name="BasicHttpBinding_ITEService" binding="tns:BasicHttpBinding_ITEService">
+      <soap:address location="http://saedrmex01web27.lanet.accorservices.net/Desarrollo/TEServicesFacade/TEService.svc" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpsBinding_ITEService" binding="tns:BasicHttpsBinding_ITEService">
+      <soap:address location="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

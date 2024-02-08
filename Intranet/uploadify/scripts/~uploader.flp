@@ -1,0 +1,4 @@
+<flash_project name="~uploader" version="1">
+    <project_file path="./~uploader.fla" filetype="fla" profile="" />
+    <project_file path="./.\uploader_fla\MainTimeline.as" filetype="as" />
+</flash_project>

@@ -1,0 +1,188 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="DefaultMP_Wide.Master.vb" Inherits="Intranet.DefaultMP_Wide" %>
+
+<%@ Import Namespace="Intranet.LocalizationIntranet" %>
+<%@ Register Src="~/UserControls/ucLigasInteres.ascx" TagName="ucLigasInteres" TagPrefix="uc" %>
+<%@ Register Src="~/UserControls/ucBanners.ascx" TagName="ucBanners" TagPrefix="uc" %>
+<%@ Register Src="~/UserControls/ucEventos.ascx" TagName="ucEventos" TagPrefix="uc" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>.: Intranet NUTEC :.</title>
+	<link rel="stylesheet" type="text/css" href="/styles/styles.css" />
+	<link rel="stylesheet" type="text/css" href="/styles/gridview.css" />
+	<%--<link href='http://fonts.googleapis.com/css?family=Exo:400,600' rel='stylesheet' type='text/css'>--%>
+	<link rel="stylesheet" href="assets/css/font-awesome.css">
+  	<!--[if IE 7]>
+  	<link rel="stylesheet" href="assets/css/font-awesome-ie7.min.css">
+  	<![endif]-->
+
+    <script src="/scripts/jquery-1.7.1.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        function inputFocus(i) {
+            if (i.value == i.defaultValue) { i.value = ""; i.style.color = "#FFF"; }
+        }
+        function inputBlur(i) {
+            if (i.value == "") { i.value = i.defaultValue; i.style.color = "#888"; }
+        }
+    </script>
+       <style type="text/css">
+           #accordion {
+               margin:0px;
+               padding:0px;
+               list-style: none;
+           }
+            #accordion ul{
+                display: none;
+            }
+
+       </style>
+</head>
+<body>
+<form id="form1" runat="server">
+<% If ConfigurationManager.AppSettings("AMBIENTE_QA").ToString() = "1" Then%>
+<table style="width:100%;background-color:red;color:#fff;"><tr><td><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USTED ESTA USANDO UN AMBIENTE DE PRUEBAS</b></td></tr></table>
+<% End If%>
+
+<div id="contenido">
+	<div id="header">
+    	<div id="logotipo"><a href="/"><img src="/images/logo.png" border="0" /></a></div>
+		<div id="texto_logout" class="linkBlanco" style="text-align:right;"><%=FechaHoyTexto() %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Login.aspx">logout</a><br /><a href="/CambiarPassword.aspx"><%=TranslateLocale.text("cambiar contraseña")%></a>
+            <br />
+            <a href="/CambiaIdioma.aspx?i=en">English</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/CambiaIdioma.aspx?i=es">Español</a>
+		</div>        
+        <div id="busquedas">
+            <asp:Panel ID="pnlBusqueda" runat="server" DefaultButton="btnBusqueda">
+                <div style="float:left;">
+                <asp:TextBox ID="txtBusqueda" runat="server" onfocus="inputFocus(this)" onblur="inputBlur(this)" Text="¿Buscas algo o alguien?" style="color:#888;"></asp:TextBox>
+                </div>
+                <div style="float:left;padding-top:0px;padding-left:2px">
+                    <asp:ImageButton ID="btnBusqueda" runat="server" BackColor="Transparent" ImageUrl="/images/busqueda.png" Width="23" Height="23" />
+                </div>
+            </asp:Panel>
+        </div>
+        <div style="clear:both;"></div>
+        <div id="breadcrums">
+        	<a href="/"><img src="/uploads/home_icon.png" border="0" /></a>
+        </div>
+	</div>
+
+	<div class="body_ancho" style="vertical-align:top;">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tr valign="top">
+                <td>
+
+                    <div class="body_izq">
+                        <div id="menu_izq">
+                            <div style='background-image:url("/images/menu_grupo.png");width:261px;height:27px;font-size:14px;font-family:Arial, Arial Black;font-weight:bold;color:#666666;'><div style='padding-left:10px;padding-top:4px;'><%=TranslateLocale.text("MIS DATOS")%></div></div>
+                            <div id="datos_usuario">
+                	            <div style="padding-left:10px; padding-top:10px;">
+                		            <div class="foto_empleado" style="background:url('/uploads/fotos/mini/<%=Session("fotoEmpleado")%>');background-repeat:no-repeat;"></div>
+                                    <div class="datos_usuario_texto">
+                        	            <strong><%=Session("nombreEmpleado") %></strong><br />
+                                        &nbsp;&nbsp;<%=Session("departamentoEmpleado")%><br />
+                                    </div>
+                	            </div>    
+                            </div>
+                            <%--<img src="/images/menu_opciones.png" border="0" />--%>
+                            <div style='background-image:url("/images/menu_grupo.png");width:261px;height:27px;font-size:14px;font-family:Arial, Arial Black;font-weight:bold;color:#666666;'><div style='padding-left:10px;padding-top:4px;'><%=TranslateLocale.text("MENÚ DE OPCIONES")%></div></div>
+                            <ul class="menu">
+                                <li><a href="<%=GetUrlMesaAyuda() %>" target="_blank"><i class="icon-user icon-large"></i>&nbsp;&nbsp;<%=TranslateLocale.text("Mesa de Ayuda")%></a></li>
+
+                                
+                                <%If Session("idEmpresa") = "3" Or Session("idEmpresa") = "6" Or Session("idEmpresa") = "8" Then %>
+                                    <li><a href="<%=GetUrlMesaAyudaMtto() %>" target="_blank"><i class="icon-user icon-large"></i>&nbsp;&nbsp;<%=TranslateLocale.text("Mesa de Ayuda")%> Mtto</a></li>
+                                <%End If%>
+
+                                <%If Session("idEmpresa") = "8" Or Session("idEmpresa") = "10" Or Session("idEmpresa") = "12" Then %>
+                                    <li><a href="<%=GetUrlMesaAyudaRD() %>" target="_blank"><i class="icon-user icon-large"></i>&nbsp;&nbsp;<%=TranslateLocale.text("Mesa de Ayuda")%> R&D</a></li>
+                                <%End If%>
+
+
+                                <li><a href="Publicaciones.aspx?t=Avisos"><i class="icon-paper-clip icon-large"></i>&nbsp;&nbsp;<%=TranslateLocale.text("Avisos de Ocasión")%></a></li>
+                                <li><a href="Publicaciones.aspx?t=Biblioteca"><i class="icon-book icon-large"></i>&nbsp;&nbsp;<%=TranslateLocale.text("Biblioteca")%></a></li>
+                                <li><a href="Publicaciones.aspx?t=Eventos"><i class="icon-calendar icon-large"></i>&nbsp;&nbsp;<%=TranslateLocale.text("Eventos")%></a></li>
+                                <li><a href="Publicaciones.aspx?t=Noticias"><i class="icon-bullhorn icon-large"></i>&nbsp;&nbsp;<%=TranslateLocale.text("Noticias y Avisos")%></a></li>
+                                <li><a href="Publicaciones.aspx?t=Vacantes"><i class="icon-briefcase icon-large"></i>&nbsp;&nbsp;<%=TranslateLocale.text("Vacantes Internas Vigentes")%></a></li>
+
+                                <li><a href="SolicitudGastos.aspx"><i class="icon-money icon-large"></i>&nbsp;&nbsp;<%=TranslateLocale.text("Gastos de Viaje")%></a></li>
+                                <li><a href='SolicitudReposicion.aspx'><i class='icon-money icon-large'></i>&nbsp;&nbsp;<%=TranslateLocale.text("Reposición de Gastos")%></a></li>
+
+                                <li><a href="SolicitudPermisos.aspx"><i class="icon-plane icon-large"></i>&nbsp;&nbsp;<%=TranslateLocale.text("Permisos")%></a></li>
+<%--                                <li><a href='ConsultaReciboNomina.aspx'><i class='icon-list-alt icon-large'></i>&nbsp;&nbsp;<%=TranslateLocale.text("Recibos de Nomina")%></a></li>--%>
+                                <li><a href="SolicitudVacaciones.aspx"><i class="icon-plane icon-large"></i>&nbsp;&nbsp;<%=TranslateLocale.text("Vacaciones")%></a></li>                                
+                            </ul>
+                            
+                                <% 
+                                    If Not Session("dt_paginas") Is Nothing Then
+                                        Dim dtPaginas As Data.DataTable = CType(Session("dt_paginas"), Data.DataTable)
+                                        Dim ultimo_menu As Integer = 0
+                                        If dtPaginas.Rows.Count > 0 Then
+                                            Response.Write("<ul id='accordion'>")
+                                            
+                                            For Each dr As Data.DataRow In dtPaginas.Rows
+                                                If ultimo_menu <> dr("id_tipo_pagina") Then
+                                                    If ultimo_menu > 0 Then
+                                                        Response.Write("</ul>")
+                                                        Response.Write("</li>")
+                                                    End If
+                                                    Response.Write("<li>")
+                                                    'Response.Write("<div style='cursor:pointer;'><img src='" & dr("imagen") & "' border='0' /></div>")
+                                                    Response.Write("<div style='background-image:url(" & Chr(34) & "/images/menu_grupo.png" & Chr(34) & ");width:261px;height:27px;cursor:pointer;font-size:14px;font-family:Arial, Arial Black;font-weight:bold;color:#666666;'><div style='padding-left:10px;padding-top:4px;'>" & TranslateLocale.text(dr("tipo_pagina")) & "</div></div>")
+                                                    Response.Write("<ul class='menu'>")
+                                                
+                                                    ultimo_menu = dr("id_tipo_pagina")
+                                                End If
+                                                Response.Write("<li><a href='" & dr("pagina") & "'><i class='" & dr("icono") & "'></i>&nbsp;&nbsp;" & TranslateLocale.text(dr("descripcion")) & "</a></li>")
+                                            Next
+                                            Response.Write("</ul>")
+                                            Response.Write("</ul>")
+                                        End If
+                                    End If
+                                    
+                               %>
+                        </div>
+                        <uc:ucBanners ID="ucBanners1" runat="server" UbicacionBanner="I" />
+
+                    </div>
+
+                </td>
+                <td>
+
+                    <div style="padding-top:10px;"></div>
+                    <div class="body_cen" style="padding-right:10px;width:940px">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">        
+                        </asp:ContentPlaceHolder>
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+
+	<br /><br />
+	<div id="footer">
+    	<div align="center" style="padding-top:13px;"><img src="/images/footer_logo.png" /></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    jQuery(document).ready(function ($) {
+        $("#accordion > li > div").click(function () {
+            if (false == $(this).next().is(':visible')) {
+                $('#accordion ul').slideUp(300);
+            }
+            $(this).next().slideToggle(300);
+        });
+        //$('#accordion ul:eq(0)').hide();
+    });
+
+
+</script>
+</form>
+</body>
+</html>

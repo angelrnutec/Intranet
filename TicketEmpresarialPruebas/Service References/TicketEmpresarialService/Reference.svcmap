@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c262db07-8d40-4da8-bccc-a1c34fd85740" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TEService.xsd" MetadataType="Schema" ID="7126b565-3974-4941-acf4-5d1b90327cb8" SourceId="1" SourceUrl="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd4" />
+    <MetadataFile FileName="TEService.disco" MetadataType="Disco" ID="136249e2-b0f1-4690-9380-8b38a268c55f" SourceId="1" SourceUrl="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?disco" />
+    <MetadataFile FileName="TEService.wsdl" MetadataType="Wsdl" ID="8cf02cfa-040e-4b1b-af5d-b76045cf4392" SourceId="1" SourceUrl="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?wsdl" />
+    <MetadataFile FileName="TEService1.xsd" MetadataType="Schema" ID="7ace2662-0f19-4aae-84e9-3d0de9517a16" SourceId="1" SourceUrl="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd3" />
+    <MetadataFile FileName="TEService2.xsd" MetadataType="Schema" ID="7851339d-cb64-43eb-9689-6333177d863d" SourceId="1" SourceUrl="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd2" />
+    <MetadataFile FileName="TEService3.xsd" MetadataType="Schema" ID="a97cc940-c7e9-47d0-aa63-3013b9c12fd7" SourceId="1" SourceUrl="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd1" />
+    <MetadataFile FileName="TEService4.xsd" MetadataType="Schema" ID="6896836c-730b-4882-9f3d-ace94dfc47cf" SourceId="1" SourceUrl="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

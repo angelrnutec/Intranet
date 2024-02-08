@@ -1,0 +1,242 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" MasterPageFile="~/DefaultMP_Wide.Master" CodeBehind="Perfiles.aspx.vb" Inherits="Intranet.Perfiles" %>
+<%@ Register TagPrefix="telerik" Namespace="Telerik.Web.UI" Assembly="Telerik.Web.UI" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <telerik:RadScriptManager ID="RadScriptManager1" runat="server"></telerik:RadScriptManager>
+    <table cellpadding="0" cellspacing="0" border="0" width="800px">
+        <tr>
+            <td><span style="font-size:15px; font-weight:bold;">Seguridad por Perfil</span>
+                <hr style="margin:0; padding:0;" />
+                <asp:Button runat="server" ID="btnReporte" Text="Ver Reporte de Permisos por Empleado" />
+                <br /><br />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table cellpadding="0" cellspacing="0" border="0">
+                    <tr>
+                        <td colspan="3">
+                            <b>Perfiles:</b>
+                            <select id="cbPerfiles" name="cbPerfiles" style="width:350px" onchange="CargaPaginas(this.value)">
+                                <option value="0">Cargando...</option>
+                            </select>
+                            <br /><br />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><b>Paginas Disponibles</b></td>
+                        <td>&nbsp;</td>
+                        <td><b> Paginas Asignadas</b></td>
+                    </tr>
+                    <tr valign="top">
+                        <td>
+                            <select id="cbDisponibles" name="cbDisponibles"  multiple="multiple" size="25"  style="width:400px">
+                                <option value="0">--Seleccione un perfil--</option>
+                            </select>
+                        </td>
+                        <td align="center">
+                            <br /><br /><br /><br /><br /><br />
+                            <input type="button" value="Asignar" id="swapLeft" name="swapLeft" />
+                            <br /><br />
+                            <input type="button" value="Quitar" id="swapRight" name="swapRight" />
+                        </td>
+                        <td>
+                            <select id="cbAsignados" name="cbAsignados"  multiple="multiple" size="25"  style="width:400px">
+                                <option value="0">--Seleccione un perfil--</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="right">
+                            <div style="height:7px"></div>
+                            <input type="button" id="btnGuardar" name="btnGuardar" value="Guardar" onclick="GuardaPaginas()" />
+                        </td>
+                    </tr>
+                </table>
+
+                <br /><br />
+
+            </td>
+        </tr>
+        <tr>
+            <td><br /><hr style="margin:0; padding:0;" /></td>
+        </tr>
+    </table>
+
+
+    <asp:Panel ID="pnlBusqueda" runat="server">
+        <table cellpadding="0" cellspacing="0" border="0" width="600px">
+            <tr>
+                <td colspan="1"><span style="font-size:15px; font-weight:bold;">Catálogo de Perfiles</span><hr style="margin:0; padding:0;" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="btnAgregar" runat="server" Text="Agregar" CssClass="botones" />
+                </td>
+            </tr>
+        </table>
+    </asp:Panel>
+    <br />
+    <div id="divNuevo" runat="server" style="width:630px">
+        <table>
+            <tr>
+                <td colspan="2">Ingrese los datos del nuevo Perfil</td>
+            </tr>
+            <tr>
+                <td>Descripción</td>
+                <td><asp:TextBox ID="txtDescripcion" runat="server" Width="200px" MaxLength="256"></asp:TextBox></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <asp:Button ID="btnGuardarPerfil" runat="server" Text="Guardar" CssClass="botones" />
+                    &nbsp;&nbsp;&nbsp;
+                    <asp:Button ID="btnCancelar" runat="server" Text="Salir" CssClass="botones" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <asp:GridView ID="gvResultados" runat="server" CssClass="grid" Width="630px" 
+         EmptyDataText="No se encontraron resultados para la busqueda realizada" AutoGenerateColumns="False" 
+         AllowSorting="false" AllowPaging="false" AutoGenerateEditButton="false" AutoGenerateDeleteButton="false"
+         DataKeyNames="id_perfil" PageSize="60">
+         <HeaderStyle CssClass="grid_header" />
+         <AlternatingRowStyle CssClass="grid_alternating" />
+          <Columns>
+              <asp:TemplateField HeaderText="Descripción" SortExpression="descripcion">
+                    <ItemTemplate>
+                            <asp:Label ID="lblDescripcion" runat="server" Text='<%# Bind("descripcion")%>' />
+                            <asp:TextBox id="txtDescripcion" runat="server" text='<%# Bind("descripcion")%>' Visible="false" Width="250px" />
+                    </ItemTemplate>
+              </asp:TemplateField>
+              <asp:TemplateField HeaderText="Acciones">
+                  <ItemTemplate>
+                      <div align="center">
+                          <asp:ImageButton ID="btnEdit" runat="server" ImageUrl="/images/edit.png" CommandName="edit" ToolTip="Editar" CommandArgument='<%# Bind("id_perfil")%>' />
+                          <asp:ImageButton ID="btnSave" runat="server" ImageUrl="/images/save.png" CommandName="save" Visible="false" ToolTip="Guardar" CommandArgument='<%# Bind("id_perfil")%>' />
+                          &nbsp;&nbsp;&nbsp;
+                          <asp:ImageButton ID="btnCancel" runat="server" ImageUrl="/images/cancel.png" CommandName="cancel" Visible="false" ToolTip="Cancelar" />
+
+                          <asp:ImageButton ID="btnEliminar" runat="server" ImageUrl="/images/delete.png" CommandName="eliminar" ToolTip="Eliminar" CommandArgument='<%# Bind("id_perfil")%>' OnClientClick="return confirm('Seguro que desea eliminar este perfil?');" />
+                      </div>
+                  </ItemTemplate>
+              </asp:TemplateField>
+          </Columns>
+    </asp:GridView>
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+        var SWAPLIST = {};
+        SWAPLIST.swap = function(from, to) {
+            $(from)
+              .find(':selected')
+              .appendTo(to);
+        }
+	
+        $('#swapLeft').click(function() {
+            SWAPLIST.swap('#cbDisponibles', '#cbAsignados');
+        });
+        $('#swapRight').click(function() {
+            SWAPLIST.swap('#cbAsignados', '#cbDisponibles');
+        });
+
+        function selectAll(box) {
+            for (var i = 0; i < box.length; i++) {
+                box.options[i].selected = true;
+            }
+        }
+
+
+        function CargaPerfiles() {
+            $.getJSON('/json/cargaPerfiles.aspx',
+            function (result) {
+                var optionsValues = '<select id="cbPerfiles" name="cbPerfiles" style="width:250px" onchange="CargaPaginas(this.value)">';
+                $.each(result, function (key, val) {
+                    optionsValues += '<option value="' + val.id_perfil + '">' + val.descripcion + '</option>';
+                });
+                optionsValues += '</select>';
+                var options = $('#cbPerfiles');
+                options.replaceWith(optionsValues);
+            });
+        }
+
+        function CargaPaginasDisponibles(id_perfil) {
+            $("#cbDisponibles").html('<option value="0">Cargando...</option>');
+            $.getJSON('/json/cargaPaginas.aspx?tipo=D&id_perfil=' + id_perfil,
+            function (result) {
+                var optionsValues = '<select id="cbDisponibles" name="cbDisponibles" multiple="multiple" size="25"  style="width:400px">';
+                $.each(result, function (key, val) {
+                    optionsValues += '<option value="' + val.id_pagina + '">' + val.descripcion + '</option>';
+                });
+                optionsValues += '</select>';
+                var options = $('#cbDisponibles');
+                options.replaceWith(optionsValues);
+            });
+        }
+
+        function CargaPaginasAsignados(id_perfil) {
+            $("#cbAsignados").html('<option value="0">Cargando...</option>');
+            $.getJSON('/json/cargaPaginas.aspx?tipo=A&id_perfil=' + id_perfil,
+            function (result) {
+                var optionsValues = '<select id="cbAsignados" name="cbAsignados" multiple="multiple" size="25"  style="width:400px">';
+                $.each(result, function (key, val) {
+                    optionsValues += '<option value="' + val.id_pagina + '">' + val.descripcion + '</option>';
+                });
+                optionsValues += '</select>';
+                var options = $('#cbAsignados');
+                options.replaceWith(optionsValues);
+            });
+        }
+
+        $(document).ready(function () {
+            CargaPerfiles();
+        });
+
+        function CargaPaginas(id_perfil) {
+            CargaPaginasDisponibles(id_perfil);
+            CargaPaginasAsignados(id_perfil);
+        }
+
+        function GuardaPaginas() {
+            var id_perfil = document.getElementById('cbPerfiles').value;
+            var paginas = '';
+            if (id_perfil > 0) {
+                selectAll(document.getElementById('cbAsignados'));
+                document.getElementById('btnGuardar').value = 'Guardando...';
+                document.getElementById('btnGuardar').disabled = true;
+                $("#cbAsignados").each(function () {
+                    var pagina = $(this).val();
+                    if (pagina != null && pagina != "null") {
+                        paginas += pagina + ',';
+                    }
+                });
+
+                $.ajax({
+                    type: "post",
+                    url: "/json/guardaPaginas.aspx",
+                    data: "id_perfil=" + id_perfil + "&paginas=" + paginas,
+                    success: function (data) {
+                        document.getElementById('btnGuardar').value = 'Guardar';
+                        document.getElementById('btnGuardar').disabled = false;
+                        alert(data);
+                        CargaPaginas(id_perfil);
+                    }
+                });
+            }
+        }
+
+
+    </script>
+
+
+</asp:Content>

@@ -1,0 +1,4182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<translations>
+  <item>
+    <key>descripcion</key>
+    <value>descripcion_en</value>
+  </item>
+  <item>
+    <key>descripcion_corta</key>
+    <value>descripcion_corta_en</value>
+  </item>
+  <item>
+    <key>titulo</key>
+    <value>titulo_en</value>
+  </item>
+
+
+
+  <item>
+    <key>¿Buscas algo o alguien?</key>
+    <value>Search</value>
+  </item>
+  <item>
+    <key>Propina</key>
+    <value>Tip</value>
+  </item>
+  <item>
+    <key>Avisos de Ocasión</key>
+    <value>Classifieds</value>
+  </item>
+  <item>
+    <key>Lunes</key>
+    <value>Monday</value>
+  </item>
+  <item>
+    <key>Martes</key>
+    <value>Tuesday</value>
+  </item>
+  <item>
+    <key>Miercoles</key>
+    <value>Wednesday</value>
+  </item>
+  <item>
+    <key>Miércoles</key>
+    <value>Wednesday</value>
+  </item>
+  <item>
+    <key>Jueves</key>
+    <value>Thursday</value>
+  </item>
+  <item>
+    <key>Viernes</key>
+    <value>Friday</value>
+  </item>
+  <item>
+    <key>Sabado</key>
+    <value>Saturday</value>
+  </item>
+  <item>
+    <key>Domingo</key>
+    <value>Sunday</value>
+  </item>
+  <item>
+    <key>Enero</key>
+    <value>January</value>
+  </item>
+  <item>
+    <key>Febrero</key>
+    <value>February</value>
+  </item>
+  <item>
+    <key>Marzo</key>
+    <value>March</value>
+  </item>
+  <item>
+    <key>Abril</key>
+    <value>April</value>
+  </item>
+  <item>
+    <key>Mayo</key>
+    <value>May</value>
+  </item>
+  <item>
+    <key>Junio</key>
+    <value>June</value>
+  </item>
+  <item>
+    <key>Julio</key>
+    <value>July</value>
+  </item>
+  <item>
+    <key>Agosto</key>
+    <value>August</value>
+  </item>
+  <item>
+    <key>Septiembre</key>
+    <value>September</value>
+  </item>
+  <item>
+    <key>Octubre</key>
+    <value>October</value>
+  </item>
+  <item>
+    <key>Noviembre</key>
+    <value>November</value>
+  </item>
+  <item>
+    <key>Diciembre</key>
+    <value>December</value>
+  </item>
+  <item>
+    <key>cambiar contraseña</key>
+    <value>change password</value>
+  </item>
+  <item>
+    <key>MENÚ DE OPCIONES</key>
+    <value>OPTIONS MENU</value>
+  </item>
+  <item>
+    <key>Biblioteca</key>
+    <value>Library</value>
+  </item>
+  <item>
+    <key>Eventos</key>
+    <value>Events</value>
+  </item>
+  <item>
+    <key>Noticias y Avisos</key>
+    <value>News</value>
+  </item>
+  <item>
+    <key>Vacantes Internas Vigentes</key>
+    <value>Internal Job Offers</value>
+  </item>
+  <item>
+    <key>Gastos de Viaje</key>
+    <value>Travel Expenses</value>
+  </item>
+  <item>
+    <key>Reposición de Gastos</key>
+    <value>Expenses Reimbursement</value>
+  </item>
+  <item>
+    <key>Permisos</key>
+    <value>Leave</value>
+  </item>
+  <item>
+    <key>Recibos de Nomina</key>
+    <value>Payslips</value>
+  </item>
+  <item>
+    <key>Vacaciones</key>
+    <value>PTO</value>
+  </item>
+
+  <item>
+    <key>Rep. de Gastos de Viaje</key>
+    <value>Travel Expenses Rep.</value>
+  </item>
+  <item>
+    <key>Rep. de Reposición de Gastos</key>
+    <value>Expenses Reimbursement Rep.</value>
+  </item>
+  <item>
+    <key>Rep. Solicitud Gastos (Pivote)</key>
+    <value>Expenses Requests Rep. (Pivot)</value>
+  </item>
+  <item>
+    <key>Rep. Solicitud Gastos por Concepto</key>
+    <value>Expenses Requests by Concept Rep.</value>
+  </item>
+  <item>
+    <key>Rep. Solicitud Gastos por CC/OI</key>
+    <value>Expenses Requests by CC/IO.</value>
+  </item>
+  <item>
+    <key>Rep. Solicitud Gastos por Empleado</key>
+    <value>Expenses Requests by Employee Rep.</value>
+  </item>
+  <item>
+    <key>Detalle de Saldo de Vacaciones</key>
+    <value>PTO Requests Details</value>
+  </item>
+  <item>
+    <key>Rep. de Solicitud de Permisos</key>
+    <value>Leave Requests Rep.</value>
+  </item>
+  <item>
+    <key>Rep. de Solicitud de Vacaciones</key>
+    <value>PTO Requests Rep.</value>
+  </item>
+  <item>
+    <key>Rep. de Saldo de Vacaciones</key>
+    <value>PTO Balance Rep.</value>
+  </item>
+  <item>
+    <key>Rep. de Vencimiento de Vacaciones</key>
+    <value>PTO Expiration Rep.</value>
+  </item>
+  <item>
+    <key>Rep. de Vencimientos Proximos</key>
+    <value>Upcoming PTO Expiration Rep.</value>
+  </item>
+  <item>
+    <key>Rep. de Vacaciones Vencidas</key>
+    <value>Expired PTO Rep.</value>
+  </item>
+  <item>
+    <key>Rep. de Recibos de Nomina</key>
+    <value>Payslips Rep.</value>
+  </item>
+  <item>
+    <key>Pólizas Contables</key>
+    <value>Journal Entries</value>
+  </item>
+  <item>
+    <key>Balance General</key>
+    <value>Balance Sheet</value>
+  </item>
+  <item>
+    <key>Cuadre de Intercompañias</key>
+    <value>Intercompanies balance</value>
+  </item>
+  <item>
+    <key>Estado de Resultados</key>
+    <value>Income Statement</value>
+  </item>
+  <item>
+    <key>Flujo de Efectivo</key>
+    <value>Cash Flow</value>
+  </item>
+  <item>
+    <key>Pedidos y Facturación</key>
+    <value>Orders and Invoices</value>
+  </item>
+  <item>
+    <key>Pronostico de Flujo de Efectivo</key>
+    <value>Cash Flow Forecast</value>
+  </item>
+  <item>
+    <key>Reporte Ejecutivo</key>
+    <value>Executive Report</value>
+  </item>
+  <item>
+    <key>Reporte Ejecutivo Hornos</key>
+    <value>Executive Report Kilns</value>
+  </item>
+  <item>
+    <key>Reporte Ejecutivo Fibras</key>
+    <value>Executive Report Fibers</value>
+  </item>
+  <item>
+    <key>Rep. Financieros Cierres</key>
+    <value>Executive Reports Closing</value>
+  </item>
+  <item>
+    <key>Rep. Máximos y Mínimos</key>
+    <value>Maximun and Minimum Rep.</value>
+  </item>
+  <item>
+    <key>Balance General (Ajustes)</key>
+    <value>Balance Sheet (Adjustment)</value>
+  </item>
+  <item>
+    <key>Captura de Pronostico Anual</key>
+    <value>Annual Forecast Input</value>
+  </item>
+  <item>
+    <key>Captura de Reportes Financieros</key>
+    <value>Financial Reports Input</value>
+  </item>
+  <item>
+    <key>Reporte Ejecutivo Notas</key>
+    <value>Executive Report Notes</value>
+  </item>
+  <item>
+    <key>Rep. Gastos NS Pivote</key>
+    <value>NS Expenses Rep. (Pivot)</value>
+  </item>
+  <item>
+    <key>Estado de Resultados incluyendo NBR</key>
+    <value>Income Statement including NBR</value>
+  </item>
+  <item>
+    <key>Gastos NBR por Centro de Costo</key>
+    <value>NBR Expenses by Cost Center</value>
+  </item>
+  <item>
+    <key>Gastos NBR por Cuenta Acumulado</key>
+    <value>NBR Expenses by Account</value>
+  </item>
+  <item>
+    <key>Gastos NS por Mes</key>
+    <value>NS Expenses by Month</value>
+  </item>
+  <item>
+    <key>Descargar Gastos NS SAP</key>
+    <value>Download NS Expenses from SAP</value>
+  </item>
+  <item>
+    <key>Captura de Datos</key>
+    <value>Data Capture</value>
+  </item>
+  <item>
+    <key>Clasificacion de Conceptos de Gastos</key>
+    <value>Expense Concepts Classification</value>
+  </item>
+  <item>
+    <key>Conceptos Intranet</key>
+    <value>Intranet Concepts</value>
+  </item>
+  <item>
+    <key>Excepciones para reportes</key>
+    <value>Report Exceptions</value>
+  </item>
+  <item>
+    <key>Seguridad por Centro de Costo</key>
+    <value>Security by Cost Center</value>
+  </item>
+  <item>
+    <key>Asignación de Teléfonos</key>
+    <value>Phone Assignments</value>
+  </item>
+  <item>
+    <key>Importación de Archivo Telcel</key>
+    <value>Telcel File Import</value>
+  </item>
+  <item>
+    <key>Reporte de Telefonía (Pivote)</key>
+    <value>Telephony Report (Pivot)</value>
+  </item>
+  <item>
+    <key>Presentación Detallada de Telefonía</key>
+    <value>Detailed Phone Presentation</value>
+  </item>
+  <item>
+    <key>Presentación de Totales por Concepto</key>
+    <value>Totals by Concept Presentation</value>
+  </item>
+  <item>
+    <key>Presentación de Totales por Línea</key>
+    <value>Totals by Line Presentation</value>
+  </item>
+  <item>
+    <key>Categorias de Avisos</key>
+    <value>Posting Categories</value>
+  </item>
+  <item>
+    <key>Conceptos de Gastos</key>
+    <value>Expense Concepts</value>
+  </item>
+  <item>
+    <key>Centro de Costos</key>
+    <value>Cost Centers</value>
+  </item>
+  <item>
+    <key>Necesidades</key>
+    <value>Needs</value>
+  </item>
+  <item>
+    <key>Parámetros Generales</key>
+    <value>General Settings</value>
+  </item>
+  <item>
+    <key>Administración de Empleados</key>
+    <value>Employee Management</value>
+  </item>
+  <item>
+    <key>Catálogo de Asuetos</key>
+    <value>Holidays Catalog</value>
+  </item>
+  <item>
+    <key>Catálogo de Departamentos</key>
+    <value>Departments Catalog</value>
+  </item>
+  <item>
+    <key>Config. de Autorizaciónes</key>
+    <value>Authorizations Setup</value>
+  </item>
+  <item>
+    <key>Configuración de Grupos</key>
+    <value>Groups Setup</value>
+  </item>
+  <item>
+    <key>Conceptos de Permisos</key>
+    <value>Leave Concepts</value>
+  </item>
+  <item>
+    <key>Conceptos de Reportes</key>
+    <value>Report Concepts</value>
+  </item>
+  <item>
+    <key>Log de Accesos</key>
+    <value>Access Logs</value>
+  </item>
+  <item>
+    <key>Desbloqueo de Recibos de Nomina</key>
+    <value>Unlock Payslips</value>
+  </item>
+  <item>
+    <key>Publicación de Contenidos</key>
+    <value>Post Contents</value>
+  </item>
+  <item>
+    <key>Cancelación Manual de Solicitudes</key>
+    <value>Manual Request Cancellations</value>
+  </item>
+  <item>
+    <key>Rep. Ejecutivo Negocio</key>
+    <value>Business Executive Rep.</value>
+  </item>
+  <item>
+    <key>Formas de Pago</key>
+    <value>Payment Types</value>
+  </item>
+  <item>
+    <key>Presentación Resumen por Proveedor</key>
+    <value>Summary by Provider Presentation</value>
+  </item>
+  <item>
+    <key>Presentación Ahorro Promedio</key>
+    <value>Average Savings Presentation</value>
+  </item>
+  <item>
+    <key>Rep. Ejecutivo Gastos NS</key>
+    <value>NS Expenses Executive Rep.</value>
+  </item>
+  <item>
+    <key>Proveedores de Telefonía</key>
+    <value>Phone Providers</value>
+  </item>
+  <item>
+    <key>Tabulador de Vacaciones</key>
+    <value>PTOs Table</value>
+  </item>
+  <item>
+    <key>Capital de Trabajo</key>
+    <value>Working Capital</value>
+  </item>
+  <item>
+    <key>REPORTES DE GASTOS</key>
+    <value>EXPENSES REPORTS</value>
+  </item>
+  <item>
+    <key>REPORTES FINANCIEROS</key>
+    <value>FINANCIAL REPORTS</value>
+  </item>
+  <item>
+    <key>REP. FINANCIEROS CAPTURA</key>
+    <value>FINANCIAL REPS CAPTURE</value>
+  </item>
+  <item>
+    <key>REPORTES GASTOS NS</key>
+    <value>NS EXPENSES REPORTS</value>
+  </item>
+  <item>
+    <key>GASTOS DE TELEFONÍA</key>
+    <value>PHONE EXPENSES</value>
+  </item>
+  <item>
+    <key>CATÁLOGOS</key>
+    <value>CATALOGS</value>
+  </item>
+  <item>
+    <key>REPORTES RH</key>
+    <value>HR REPORTS</value>
+  </item>
+  <item>
+    <key>CAPTURA GASTOS NS</key>
+    <value>NS EXPENSES CAPTURE</value>
+  </item>
+  <item>
+    <key>ADMINISTRACIÓN</key>
+    <value>MANAGEMENT</value>
+  </item>
+  <item>
+    <key>Últimas Noticias</key>
+    <value>Latest News</value>
+  </item>
+  <item>
+    <key>Ligas de Interés</key>
+    <value>Links of interest</value>
+  </item>
+  <item>
+    <key>Próximos Cumpleaños</key>
+    <value>Upcoming Birthdays</value>
+  </item>
+  <item>
+    <key>MIS DATOS</key>
+    <value>MY INFO</value>
+  </item>
+  <item>
+    <key>Reporte de Gastos de Viaje</key>
+    <value>Travel Expenses Report</value>
+  </item>
+  <item>
+    <key>Fecha Inicial</key>
+    <value>Start Date</value>
+  </item>
+  <item>
+    <key>Fecha Final</key>
+    <value>End Date</value>
+  </item>
+  <item>
+    <key>Empresa</key>
+    <value>Company</value>
+  </item>
+  <item>
+    <key>Estatus</key>
+    <value>Status</value>
+  </item>
+  <item>
+    <key>Empleado</key>
+    <value>Employee</value>
+  </item>
+  <item>
+    <key>Estatus de Cancelacion</key>
+    <value>Cancellation Status</value>
+  </item>
+  <item>
+    <key>Generar Reporte</key>
+    <value>Generate Report</value>
+  </item>
+  <item>
+    <key>Generando Reporte</key>
+    <value>Generating Report</value>
+  </item>
+  <item>
+    <key>--Todas--</key>
+    <value>--All--</value>
+  </item>
+  <item>
+    <key>Solo Activas</key>
+    <value>Active Only</value>
+  </item>
+  <item>
+    <key>Solo Canceladas</key>
+    <value>Cancelled Only</value>
+  </item>
+  <item>
+    <key>--Todos--</key>
+    <value>--All--</value>
+  </item>
+  <item>
+    <key>Todas</key>
+    <value>All</value>
+  </item>
+  <item>
+    <key>Todos</key>
+    <value>All</value>
+  </item>
+  <item>
+    <key>Exportar a Excel</key>
+    <value>Export to Excel</value>
+  </item>
+  <item>
+    <key>Imprimir sin Formato</key>
+    <value>Print without Format</value>
+  </item>
+  <item>
+    <key>Filtros</key>
+    <value>Filters</value>
+  </item>
+  <item>
+    <key>Folio</key>
+    <value>Number</value>
+  </item>
+  <item>
+    <key>Fecha de Solicitud</key>
+    <value>Request Date</value>
+  </item>
+  <item>
+    <key>Solicitante</key>
+    <value>Applicant</value>
+  </item>
+  <item>
+    <key>Departamento</key>
+    <value>Department</value>
+  </item>
+  <item>
+    <key>Destino</key>
+    <value>Destination</value>
+  </item>
+  <item>
+    <key>Motivo</key>
+    <value>Purpose</value>
+  </item>
+  <item>
+    <key>Monto MXP</key>
+    <value>MXP Amount</value>
+  </item>
+  <item>
+    <key>Monto USD</key>
+    <value>USD Amount</value>
+  </item>
+  <item>
+    <key>Monto EUR</key>
+    <value>EUR Amount</value>
+  </item>
+  <item>
+    <key>Total Anticipo MXP</key>
+    <value>MXP Total Advance</value>
+  </item>
+  <item>
+    <key>Total Viáticos MXP</key>
+    <value>MXP Total Allowance</value>
+  </item>
+  <item>
+    <key>Total Compra Material MXP</key>
+    <value>MXP Total Material Purchase</value>
+  </item>
+  <item>
+    <key>Saldo MXP</key>
+    <value>MXP Balance</value>
+  </item>
+  <item>
+    <key>Fecha Ini</key>
+    <value>Start Date</value>
+  </item>
+  <item>
+    <key>Fecha Fin</key>
+    <value>End Date</value>
+  </item>
+  <item>
+    <key>Autoriza Jefe</key>
+    <value>Manager Authorization</value>
+  </item>
+  <item>
+    <key>Autoriza Conta</key>
+    <value>Accounting Authorization</value>
+  </item>
+  <item>
+    <key>Autorización Anticipo Jefe</key>
+    <value>Manager Advance Authorization</value>
+  </item>
+  <item>
+    <key>Autorización Anticipo Conta</key>
+    <value>Accounting Advance Authorization</value>
+  </item>
+  <item>
+    <key>Autorización Comprobación Jefe</key>
+    <value>Manager Expense Authorization</value>
+  </item>
+  <item>
+    <key>Autorización Comprobación Conta</key>
+    <value>Accounting Expense Authorization</value>
+  </item>
+  <item>
+    <key>Reporte de Reposición de Gastos</key>
+    <value>Expenses Reimbursement Report</value>
+  </item>
+  <item>
+    <key>Total Gasto MXP</key>
+    <value>MXP Total Expense</value>
+  </item>
+  <item>
+    <key>Comentarios</key>
+    <value>Notes</value>
+  </item>
+  <item>
+    <key>Reporte de Solicitud de Gastos (Pivote)</key>
+    <value>Expenses Requests Report (Pivot)</value>
+  </item>
+  <item>
+    <key>Año Completo</key>
+    <value>All Year</value>
+  </item>
+  <item>
+    <key>Año</key>
+    <value>Year</value>
+  </item>
+  <item>
+    <key>Periodo</key>
+    <value>Period</value>
+  </item>
+  <item>
+    <key>Datos para filas</key>
+    <value>Row fields</value>
+  </item>
+  <item>
+    <key>Datos para columnas</key>
+    <value>Column fields</value>
+  </item>
+  <item>
+    <key>Datos para totales</key>
+    <value>Total fields</value>
+  </item>
+  <item>
+    <key>Reportes Basicos</key>
+    <value>Basic Reports</value>
+  </item>
+  <item>
+    <key>Gastos NS</key>
+    <value>NS Expenses</value>
+  </item>
+  <item>
+    <key>Gastos NB</key>
+    <value>NB Expenses</value>
+  </item>
+  <item>
+    <key>Gastos NF</key>
+    <value>NF Expenses</value>
+  </item>
+  <item>
+    <key>Totales por empleado</key>
+    <value>Totals by employee</value>
+  </item>
+  <item>
+    <key>Cargando datos</key>
+    <value>Loading data</value>
+  </item>
+  <item>
+    <key>Cuenta Contable</key>
+    <value>Ledger Account</value>
+  </item>
+  <item>
+    <key>Clave IVA</key>
+    <value>Tax Code</value>
+  </item>
+  <item>
+    <key>Tipo Monto</key>
+    <value>Amount Type</value>
+  </item>
+  <item>
+    <key>Total Pesos</key>
+    <value>Pesos Total</value>
+  </item>
+  <item>
+    <key>Centro Costo</key>
+    <value>Cost Center</value>
+  </item>
+  <item>
+    <key>Necesidad</key>
+    <value>Necessity</value>
+  </item>
+  <item>
+    <key>Orden Interna</key>
+    <value>Internal Order</value>
+  </item>
+  <item>
+    <key>Forma Pago</key>
+    <value>Payment Type</value>
+  </item>
+  <item>
+    <key>Concepto</key>
+    <value>Concept</value>
+  </item>
+  <item>
+    <key>Fecha Solicitud</key>
+    <value>Request Date</value>
+  </item>
+  <item>
+    <key>Nombre</key>
+    <value>Name</value>
+  </item>
+  <item>
+    <key>Mes</key>
+    <value>Month</value>
+  </item>
+  <item>
+    <key>registros por pagina</key>
+    <value>records per page</value>
+  </item>
+  <item>
+    <key>Mostrando _START_ al _END_ de _TOTAL_</key>
+    <value>Showing _START_ to _END_ of _TOTAL_</value>
+  </item>
+  <item>
+    <key>Primero</key>
+    <value>First</value>
+  </item>
+  <item>
+    <key>Anterior</key>
+    <value>Previous</value>
+  </item>
+  <item>
+    <key>Siguiente</key>
+    <value>Next</value>
+  </item>
+  <item>
+    <key>Ultimo</key>
+    <value>Last</value>
+  </item>
+  <item>
+    <key>Buscar</key>
+    <value>Search</value>
+  </item>
+  <item>
+    <key>No se encontraron registros</key>
+    <value>No records to display</value>
+  </item>
+  <item>
+    <key>Conceptos Generales</key>
+    <value>General Concepts</value>
+  </item>
+  <item>
+    <key>Conceptos Bickley</key>
+    <value>Bickley Concepts</value>
+  </item>
+  <item>
+    <key>Agrupar Por</key>
+    <value>Group By</value>
+  </item>
+  <item>
+    <key>Rep. Solicitud de Gastos por Concepto</key>
+    <value>Expense Requests by Concept Rep.</value>
+  </item>
+  <item>
+    <key>Mostrar CC o OI</key>
+    <value>Show CC or IO</value>
+  </item>
+  <item>
+    <key>Solo Orden Interna / Elemento PEP</key>
+    <value>Internal Order / PEP Element Only</value>
+  </item>
+  <item>
+    <key>Solo Centros de Costo</key>
+    <value>Cost Center Only</value>
+  </item>
+  <item>
+    <key>Moneda: MXP</key>
+    <value>Currency: MXP</value>
+  </item>
+  <item>
+    <key>Moneda</key>
+    <value>Currency</value>
+  </item>
+  <item>
+    <key>Otros Impuestos</key>
+    <value>Other Taxes</value>
+  </item>
+  <item>
+    <key>Rep. Solicitud de Gastos por Centro de Costo / Orden Interna</key>
+    <value>Expense Requests by Cost Center Rep.</value>
+  </item>
+  <item>
+    <key>Rep. Solicitud de Gastos por Empleado</key>
+    <value>Expense Requests by Employee</value>
+  </item>
+  <item>
+    <key>Ene</key>
+    <value>Jan</value>
+  </item>
+  <item>
+    <key>Feb</key>
+    <value>Feb</value>
+  </item>
+  <item>
+    <key>Mar</key>
+    <value>Mar</value>
+  </item>
+  <item>
+    <key>Abr</key>
+    <value>Apr</value>
+  </item>
+  <item>
+    <key>May</key>
+    <value>May</value>
+  </item>
+  <item>
+    <key>Jun</key>
+    <value>Jun</value>
+  </item>
+  <item>
+    <key>Jul</key>
+    <value>Jul</value>
+  </item>
+  <item>
+    <key>Ago</key>
+    <value>Aug</value>
+  </item>
+  <item>
+    <key>Sep</key>
+    <value>Sep</value>
+  </item>
+  <item>
+    <key>Oct</key>
+    <value>Oct</value>
+  </item>
+  <item>
+    <key>Nov</key>
+    <value>Nov</value>
+  </item>
+  <item>
+    <key>Dic</key>
+    <value>Dec</value>
+  </item>
+  <item>
+    <key>Centro Costo / Orden Interna</key>
+    <value>Cost Center / Internal Order</value>
+  </item>
+  <item>
+    <key>Emp</key>
+    <value>Company</value>
+  </item>
+  <item>
+    <key>--Seleccione--</key>
+    <value>--Choose--</value>
+  </item>
+  <item>
+    <key>Por Centros de Costo</key>
+    <value>By Cost Center</value>
+  </item>
+  <item>
+    <key>Por Orden Interna</key>
+    <value>By Internal Order</value>
+  </item>
+  <item>
+    <key>Exportar OI</key>
+    <value>Export IO</value>
+  </item>
+  <item>
+    <key>Exportar CC</key>
+    <value>Export CC</value>
+  </item>
+  <item>
+    <key>La sumatoria total de los detalles es</key>
+    <value>The sum of the details is</value>
+  </item>
+  <item>
+    <key>pero debe ser</key>
+    <value>but should be</value>
+  </item>
+  <item>
+    <key>Modificar datos de la Póliza</key>
+    <value>Edit Journal Entry Data</value>
+  </item>
+  <item>
+    <key>Tipo de Solicitud</key>
+    <value>Request Type</value>
+  </item>
+  <item>
+    <key>Tipo de Concepto</key>
+    <value>Concept Type</value>
+  </item>
+  <item>
+    <key>Seleccionar todas</key>
+    <value>Select all</value>
+  </item>
+  <item>
+    <key>Enviando Pólizas a SAP. Espere un momento</key>
+    <value>Sending data to SAP. Please wait</value>
+  </item>
+  <item>
+    <key>Resultados del envio a SAP</key>
+    <value>Interfase Results from SAP</value>
+  </item>
+  <item>
+    <key>Descargando Pólizas de SAP. Espere un momento</key>
+    <value>Downloading Journal Entries from SAP</value>
+  </item>
+  <item>
+    <key>Consultar Pólizas</key>
+    <value>View journal entries</value>
+  </item>
+  <item>
+    <key>Salir</key>
+    <value>Exit</value>
+  </item>
+  <item>
+    <key>Enviar Póliza(s) a SAP</key>
+    <value>Send Journal Entries to SAP</value>
+  </item>
+  <item>
+    <key>Descargar Póliza(s) por corregir de SAP</key>
+    <value>Download data to correct from SAP</value>
+  </item>
+  <item>
+    <key>Favor de capturar la siguiente información</key>
+    <value>Please enter the following data</value>
+  </item>
+  <item>
+    <key>No se encontraron las siguientes pólizas en el sistema</key>
+    <value>The following Journal Entries were not found</value>
+  </item>
+  <item>
+    <key>Las siguientes pólizas fueron desbloqueadas para edición</key>
+    <value>The following Journal Entries were unlocked for editing</value>
+  </item>
+  <item>
+    <key>No se encontraron pólizas a desbloquear</key>
+    <value>No records were found</value>
+  </item>
+  <item>
+    <key>Pendientes de Enviar a SAP</key>
+    <value>Pending to Send to SAP</value>
+  </item>
+  <item>
+    <key>Enviadas a SAP</key>
+    <value>Sent to SAP</value>
+  </item>
+  <item>
+    <key>Sociedad</key>
+    <value>Company</value>
+  </item>
+  <item>
+    <key>Seleccionar</key>
+    <value>Choose</value>
+  </item>
+  <item>
+    <key>Fecha Doc</key>
+    <value>Doc Date</value>
+  </item>
+  <item>
+    <key>Referencia</key>
+    <value>Reference</value>
+  </item>
+  <item>
+    <key>Asignación</key>
+    <value>Assignment</value>
+  </item>
+  <item>
+    <key>Deudor</key>
+    <value>Debtor</value>
+  </item>
+  <item>
+    <key># Cuenta</key>
+    <value>Account #</value>
+  </item>
+  <item>
+    <key>Proyecto</key>
+    <value>Project</value>
+  </item>
+  <item>
+    <key>Importe sin IVA</key>
+    <value>Amount without TAX</value>
+  </item>
+  <item>
+    <key>Descripción</key>
+    <value>Description</value>
+  </item>
+  <item>
+    <key>Editar</key>
+    <value>Edit</value>
+  </item>
+  <item>
+    <key>Centro de Costo</key>
+    <value>Cost Center</value>
+  </item>
+  <item>
+    <key>Elemento PEP</key>
+    <value>PEP Element</value>
+  </item>
+  <item>
+    <key>Cuenta</key>
+    <value>Account</value>
+  </item>
+  <item>
+    <key>Importe</key>
+    <value>Amount</value>
+  </item>
+  <item>
+    <key>Descripcion</key>
+    <value>Description</value>
+  </item>
+  <item>
+    <key>Tipo Comprobacion</key>
+    <value>Expense Report Type</value>
+  </item>
+  <item>
+    <key>Asignacion</key>
+    <value>Assignment</value>
+  </item>
+  <item>
+    <key>Poliza</key>
+    <value>Journal Entry</value>
+  </item>
+  <item>
+    <key>Eliminar</key>
+    <value>Delete</value>
+  </item>
+  <item>
+    <key>Pedidos y Facturacion PLAN</key>
+    <value>Orders and Invoices PLAN</value>
+  </item>
+  <item>
+    <key>Perfil de Deuda</key>
+    <value>Debt Profile</value>
+  </item>
+  <item>
+    <key>Datos Adicionales - Reporte Ejecutivo</key>
+    <value>Executive Report - Additional Data</value>
+  </item>
+  <item>
+    <key>Headcount</key>
+    <value>Headcount</value>
+  </item>
+  <item>
+    <key>Cuadre Intercompañias</key>
+    <value>Intercompanies balance</value>
+  </item>
+  <item>
+    <key>Datos para Reporte de Gastos NBR</key>
+    <value>NBR Expenses Report Data</value>
+  </item>
+  <item>
+    <key>Totales por Proveedor de Telefonia</key>
+    <value>Totals by Phone Provider</value>
+  </item>
+  <item>
+    <key>Caja y Bancos</key>
+    <value>Cash and Banks</value>
+  </item>
+  <item>
+    <key>Clientes</key>
+    <value>Customers</value>
+  </item>
+  <item>
+    <key>Afiliadas CP</key>
+    <value>ST Affiliates</value>
+  </item>
+  <item>
+    <key>Inventario</key>
+    <value>Inventory</value>
+  </item>
+  <item>
+    <key>Inversión Original en Afiliadas</key>
+    <value>Affiliates Original Investment</value>
+  </item>
+  <item>
+    <key>Participación en Afiliadas</key>
+    <value>Affiliates Share</value>
+  </item>
+  <item>
+    <key>Deudores Diversos</key>
+    <value>Various Debtors</value>
+  </item>
+  <item>
+    <key>Anticipo a Proveedores</key>
+    <value>Advances to Suppliers</value>
+  </item>
+  <item>
+    <key>Impuestos Por Cobrar</key>
+    <value>Taxes Receivable</value>
+  </item>
+  <item>
+    <key>Impuestos Por Recuperar</key>
+    <value>Taxes to be Recovered</value>
+  </item>
+  <item>
+    <key>ACTIVO CIRCULANTE</key>
+    <value>CURRENT ASSETS</value>
+  </item>
+  <item>
+    <key>Activo Fijo</key>
+    <value>Fixed Assets</value>
+  </item>
+  <item>
+    <key>(Depreciacion Acumulada)</key>
+    <value>(Accumulated Depreciation)</value>
+  </item>
+  <item>
+    <key>ACTIVO FIJO</key>
+    <value>FIXED ASSETS</value>
+  </item>
+  <item>
+    <key>Afiliadas LP</key>
+    <value>LT Affiliates</value>
+  </item>
+  <item>
+    <key>Activo Diferido e Intangible</key>
+    <value>Deferred and Intangible Assets</value>
+  </item>
+  <item>
+    <key>TOTAL ACTIVO</key>
+    <value>TOTAL ASSETS</value>
+  </item>
+  <item>
+    <key>Prestamos Bancarios CP</key>
+    <value>Bank Loans</value>
+  </item>
+  <item>
+    <key>Proveedores</key>
+    <value>Suppliers</value>
+  </item>
+  <item>
+    <key>Under / Over Billings</key>
+    <value>Under / Over Billings</value>
+  </item>
+  <item>
+    <key>Acreedores Diversos</key>
+    <value>Various Creditors</value>
+  </item>
+  <item>
+    <key>Arrendamiento por Pagar</key>
+    <value>Lease Payable</value>
+  </item>
+  <item>
+    <key>Impuestos por Pagar</key>
+    <value>Taxes Payable</value>
+  </item>
+  <item>
+    <key>Anticipo de Clientes</key>
+    <value>Customer Advances</value>
+  </item>
+  <item>
+    <key>PASIVO CIRCULANTE</key>
+    <value>CURRENT LIABILITIES</value>
+  </item>
+  <item>
+    <key>Prestamos Bancarios LP</key>
+    <value>LT Bank Loans</value>
+  </item>
+	<item>
+		<key>Pasivo Diferido</key>
+		<value>Deferred Liabilities</value>
+	</item>
+	<item>
+		<key>Pasivo Diferido (D3 y D5)</key>
+		<value>Deferred Liabilities (D3 y D5)</value>
+	</item>
+	<item>
+    <key>PASIVO TOTAL</key>
+    <value>TOTAL LIABILITIES</value>
+  </item>
+  <item>
+    <key>Capital Social</key>
+    <value>Share Capital</value>
+  </item>
+  <item>
+    <key>Joint Ventures</key>
+    <value>Joint Ventures</value>
+  </item>
+  <item>
+    <key>Actualizacion Financiera B-10</key>
+    <value>B-10 Financial Update</value>
+  </item>
+  <item>
+    <key>Resultado de Ejercicios Anteriores</key>
+    <value>Previous Fiscal Year Results</value>
+  </item>
+  <item>
+    <key>Resultado del Ejercicio</key>
+    <value>Fiscal Year Results</value>
+  </item>
+  <item>
+    <key>CAPITAL CONTABLE</key>
+    <value>Stockholders Equity</value>
+  </item>
+  <item>
+    <key>PASIVO Y CAPITAL</key>
+    <value>LIABILITIES AND EQUITY</value>
+  </item>
+  <item>
+    <key>Días Cobranza</key>
+    <value>Collection Days</value>
+  </item>
+  <item>
+    <key>Días Pago</key>
+    <value>Payment Days</value>
+  </item>
+  <item>
+    <key>Rotación Inventarios. Días</key>
+    <value>Inventory Turnover Days</value>
+  </item>
+  <item>
+    <key>Liquidez. Mayor a 1.3</key>
+    <value>Liquidity. Greater than 1.3</value>
+  </item>
+  <item>
+    <key>Cobertura de Deuda. Menor a 2</key>
+    <value>Debt Coverage. Less than 2</value>
+  </item>
+  <item>
+    <key>Cobertura de Deuda. Menor a 4</key>
+    <value>Debt Coverage. Less than 4</value>
+  </item>
+  <item>
+    <key>Rentabilidad sobre Activos</key>
+    <value>Return on Assets</value>
+  </item>
+  <item>
+    <key>Afil. x Cob CP</key>
+    <value>ST Affil. AR</value>
+  </item>
+  <item>
+    <key>Afil. x Cob</key>
+    <value>Affil. AR</value>
+  </item>
+  <item>
+    <key>Afil. x Cob LP</key>
+    <value>LT Affil. AR</value>
+  </item>
+  <item>
+    <key>Afil. x Pag CP</key>
+    <value>ST Affil. AP</value>
+  </item>
+  <item>
+    <key>Afil. x Pag LP</key>
+    <value>LT Affil. AP</value>
+  </item>
+  <item>
+    <key>Afil. x Pag</key>
+    <value>Affil. AP</value>
+  </item>
+  <item>
+    <key>Dif</key>
+    <value>Diff</value>
+  </item>
+  <item>
+    <key>Ref. Balance General</key>
+    <value>Balance Sheet Ref.</value>
+  </item>
+  <item>
+    <key>Suma</key>
+    <value>Sum</value>
+  </item>
+  <item>
+    <key>Comparativo de lo reportado por las otras empresas</key>
+    <value>Comparison against other companies</value>
+  </item>
+  <item>
+    <key>TOTALES</key>
+    <value>TOTALS</value>
+  </item>
+  <item>
+    <key>POR COBRAR</key>
+    <value>TO COLLECT</value>
+  </item>
+  <item>
+    <key>POR PAGAR</key>
+    <value>TO PAY</value>
+  </item>
+  <item>
+    <key>VARIACIONES</key>
+    <value>VARIATION</value>
+  </item>
+  <item>
+    <key>Ventas</key>
+    <value>Sales</value>
+  </item>
+  <item>
+    <key>Costo de Ventas</key>
+    <value>COGS</value>
+  </item>
+  <item>
+    <key>Comisiones</key>
+    <value>Commissions</value>
+  </item>
+  <item>
+    <key>Margen Bruto</key>
+    <value>Gross Margin</value>
+  </item>
+  <item>
+    <key>Gastos de Operación</key>
+    <value>Operation Costs</value>
+  </item>
+  <item>
+    <key>One Time</key>
+    <value>One Time</value>
+  </item>
+  <item>
+    <key>Utilidad de Operación</key>
+    <value>Operation Profit</value>
+  </item>
+  <item>
+    <key>Utilidad de Operación NS</key>
+    <value>NS Operation Profit</value>
+  </item>
+  <item>
+    <key>Otros Ingresos (Gastos)</key>
+    <value>Other Income (Expenses)</value>
+  </item>
+  <item>
+    <key>Gastos DG</key>
+    <value>GM Expenses</value>
+  </item>
+  <item>
+    <key>UAIR</key>
+    <value>IBT</value>
+  </item>
+  <item>
+    <key>Gastos del Consejo</key>
+    <value>Council Expenses</value>
+  </item>
+  <item>
+    <key>UAFIR</key>
+    <value>EBIT</value>
+  </item>
+  <item>
+    <key>Gastos Financieros</key>
+    <value>Financial Expenses</value>
+  </item>
+  <item>
+    <key>Fluctuacion Cambiaria</key>
+    <value>Currency Fluctuation</value>
+  </item>
+  <item>
+    <key>Impuestos</key>
+    <value>Taxes</value>
+  </item>
+  <item>
+    <key>Utilidad Neta</key>
+    <value>Net Profit</value>
+  </item>
+  <item>
+    <key>Depreciacion</key>
+    <value>Depreciation</value>
+  </item>
+  <item>
+    <key>Flujo de Operación</key>
+    <value>EBITDA</value>
+  </item>
+  <item>
+    <key>Depreciación</key>
+    <value>Depreciation</value>
+  </item>
+  <item>
+    <key>Cuentas por Pagar</key>
+    <value>Accounts Payables</value>
+  </item>
+  <item>
+    <key>Cuentas por Cobrar</key>
+    <value>Accounts Receivables</value>
+  </item>
+  <item>
+    <key>Inventarios</key>
+    <value>Inventory</value>
+  </item>
+  <item>
+    <key>Flujo Generado por la Operación</key>
+    <value>Cash Flow from Operations</value>
+  </item>
+  <item>
+    <key>Inversión en Activo Fijo</key>
+    <value>Investment in Fixed Assets</value>
+  </item>
+  <item>
+    <key>Ingreso por Dividendos Filiales</key>
+    <value>Affiliated Dividends Income</value>
+  </item>
+  <item>
+    <key>Pago Dividendos a Accionistas</key>
+    <value>Shareholders Dividends Payments</value>
+  </item>
+  <item>
+    <key>Reducción Capital / Compra Acciones</key>
+    <value>Capital Reduction / Buy Shares</value>
+  </item>
+  <item>
+    <key>Contratación Deuda Bancaria</key>
+    <value>Bank Debt Contracts</value>
+  </item>
+  <item>
+    <key>Amortización Pasivo e Intereses</key>
+    <value>Interests and Liabilities Amortization</value>
+  </item>
+  <item>
+    <key>Compra NP</key>
+    <value>NP Buy</value>
+  </item>
+  <item>
+    <key>Flujo de Financiamiento e Inversión</key>
+    <value>Cash Flow from Financing and Investment</value>
+  </item>
+  <item>
+    <key>Saldo Inicial de Efectivo</key>
+    <value>Cash Opening Balance</value>
+  </item>
+  <item>
+    <key>Saldo Final de Efectivo</key>
+    <value>Cash Closing Balance</value>
+  </item>
+  <item>
+    <key>Caja Neta</key>
+    <value>Net Cash</value>
+  </item>
+  <item>
+    <key>Capital de Trabajo Calculado</key>
+    <value>Calculated Working Capital</value>
+  </item>
+  <item>
+    <key>Validación para Gráfica</key>
+    <value>Graph Validation</value>
+  </item>
+  <item>
+    <key>Ajuste</key>
+    <value>Adjustment</value>
+  </item>
+  <item>
+    <key>Capital de Trabajo Gráfica</key>
+    <value>Working Capital Graph</value>
+  </item>
+  <item>
+    <key>PEDIDOS</key>
+    <value>ORDERS</value>
+  </item>
+  <item>
+    <key>NETA</key>
+    <value>NET</value>
+  </item>
+  <item>
+    <key>FACTURACION</key>
+    <value>INVOICING</value>
+  </item>
+  <item>
+    <key>Comentarios a la Variacion del Prespuesto de Flujo</key>
+    <value>Flow Forecast Variation Notes</value>
+  </item>
+  <item>
+    <key>Semana</key>
+    <value>Week</value>
+  </item>
+  <item>
+    <key>Saldo Inicial Bancos</key>
+    <value>Banks Opening Balance</value>
+  </item>
+  <item>
+    <key>IVA e ISR</key>
+    <value>Taxes - VAT &amp; Income</value>
+  </item>
+  <item>
+    <key>Préstamos Bancarios</key>
+    <value>Bank Loans</value>
+  </item>
+  <item>
+    <key>Total Cobranza</key>
+    <value>Total Collection</value>
+  </item>
+  <item>
+    <key>Sueldos y Salarios</key>
+    <value>Wages and Salaries</value>
+  </item>
+  <item>
+    <key>Total Pagos</key>
+    <value>Total Payments</value>
+  </item>
+  <item>
+    <key>Saldo Semanal</key>
+    <value>Weekly Balance</value>
+  </item>
+  <item>
+    <key>EXCESO (DEFICIT)</key>
+    <value>EXCESS (DEFICIT)</value>
+  </item>
+  <item>
+    <key>Acumulado</key>
+    <value>Accumulated</value>
+  </item>
+  <item>
+    <key>PROVEEDORES</key>
+    <value>VENDORS</value>
+  </item>
+  <item>
+    <key>Proveedores Nacionales</key>
+    <value>Local Vendors</value>
+  </item>
+  <item>
+    <key>Proveedores Extranjeros</key>
+    <value>Foreign Vendors</value>
+  </item>
+  <item>
+    <key>Proveedores Filiales Operación</key>
+    <value>AP Affiliates Operative</value>
+  </item>
+  <item>
+    <key>Proveedores Filiales Deuda y Fiscal</key>
+    <value>AP Affiliates Loan &amp; Fiscal</value>
+  </item>
+  <item>
+    <key>Total Cuentas por Pagar</key>
+    <value>Accounts Payables Total</value>
+  </item>
+  <item>
+    <key>INVENTARIO</key>
+    <value>INVENTORY</value>
+  </item>
+  <item>
+    <key>Materia Prima</key>
+    <value>Raw Materials</value>
+  </item>
+  <item>
+    <key>Producto en Proceso</key>
+    <value>Work in Process</value>
+  </item>
+  <item>
+    <key>Refacciones</key>
+    <value>Spare Parts</value>
+  </item>
+  <item>
+    <key>Producto Terminado</key>
+    <value>Finished Goods</value>
+  </item>
+  <item>
+    <key>Total Inventario</key>
+    <value>Inventory Totals</value>
+  </item>
+  <item>
+    <key>CARTERA TOTAL POR PAIS</key>
+    <value>TOTAL ACCOUNTS RECEIVABLES BY COUNTRY</value>
+  </item>
+  <item>
+    <key>CARTERA VENCIDA POR PAIS</key>
+    <value>OVERDUE ACCOUNTS RECEIVABLE BY COUNTRY</value>
+  </item>
+  <item>
+    <key>Europa</key>
+    <value>Europe</value>
+  </item>
+  <item>
+    <key>Otros Países</key>
+    <value>Other Countries</value>
+  </item>
+  <item>
+    <key>Otros paises</key>
+    <value>Other Countries</value>
+  </item>  
+  <item>
+    <key>CARTERA VENCIDA</key>
+    <value>OVERDUE ACCOUNTS RECEIVABLE</value>
+  </item>
+  <item>
+    <key>CARTERA VENCIDA (No incluye filiales)</key>
+    <value>OVERDUE ACCOUNTS RECEIVABLE (Not including affiliates)</value>
+  </item>
+  <item>
+    <key>Clientes Filiales Operaciones</key>
+    <value>Customer Affiliates Operations</value>
+  </item>
+  <item>
+    <key>0-30 Días</key>
+    <value>0-30 Days</value>
+  </item>
+  <item>
+    <key>30-60 Días</key>
+    <value>30-60 Days</value>
+  </item>
+  <item>
+    <key>60-90 Días</key>
+    <value>60-90 Days</value>
+  </item>
+  <item>
+    <key>Más de 90 Días</key>
+    <value>More than 90 Days</value>
+  </item>
+  <item>
+    <key>CAJA</key>
+    <value>CASH</value>
+  </item>
+  <item>
+    <key>Gasto Fijo últimos 12 meses</key>
+    <value>Fixed Expenses last 12 months</value>
+  </item>
+  <item>
+    <key>Reporte de Máximos y Mínimos</key>
+    <value>Maximums and Minimums Report</value>
+  </item>
+  <item>
+    <key>Pedidos</key>
+    <value>Orders</value>
+  </item>
+  <item>
+    <key>Facturación</key>
+    <value>Invoicing</value>
+  </item>
+  <item>
+    <key>Saldo en Bancos</key>
+    <value>Banks Balance</value>
+  </item>
+  <item>
+    <key>Máximo</key>
+    <value>Maximum</value>
+  </item>
+  <item>
+    <key>Mínimo</key>
+    <value>Minimum</value>
+  </item>
+  <item>
+    <key>Promedio</key>
+    <value>Average</value>
+  </item>
+  <item>
+    <key>Cierres de Reportes Financieros</key>
+    <value>Financial Reports Closing</value>
+  </item>
+  <item>
+    <key>Seleccione el año a consultar</key>
+    <value>Select the year to review</value>
+  </item>
+  <item>
+    <key>Acciones</key>
+    <value>Actions</value>
+  </item>
+  <item>
+    <key>Abierto</key>
+    <value>Open</value>
+  </item>
+  <item>
+    <key>Cerrado</key>
+    <value>Closed</value>
+  </item>
+  <item>
+    <key>Reporte Ejecutivo - Consolidado</key>
+    <value>Executive Report - Consolidated</value>
+  </item>
+  <item>
+    <key>Reporte Ejecutivo - Hornos</key>
+    <value>Executive Report - Ovens</value>
+  </item>
+  <item>
+    <key>Reporte Ejecutivo - Fibras</key>
+    <value>Executive Report - Fibers</value>
+  </item>
+  <item>
+    <key>Minuta Junta Anterior</key>
+    <value>Last meeting's draft of agreements</value>
+  </item>
+  <item>
+    <key>Resumen Operativo</key>
+    <value>Operations Summary</value>
+  </item>
+  <item>
+    <key>Perfil de Deuda Condensado</key>
+    <value>Debt Profile Condensed</value>
+  </item>
+  <item>
+    <key>Estado de Cambios Base Efectivo</key>
+    <value>Statement of Cash Flows</value>
+  </item>
+  <item>
+    <key>Gráfica: Flujo de Efectivo</key>
+    <value>Graph: Cash Flow</value>
+  </item>
+  <item>
+    <key>Gráfica: Headcount</key>
+    <value>Graph: Headcount</value>
+  </item>
+  <item>
+    <key>Gráfica: Costo de Nóminas</key>
+    <value>Graph: Payroll Cost</value>
+  </item>
+  <item>
+    <key>Mostrar todos los reportes</key>
+    <value>Show all reports</value>
+  </item>
+  <item>
+    <key>Cap. de Trabajo: Proveedores</key>
+    <value>Working Capital: Suppliers</value>
+  </item>
+  <item>
+    <key>Cap. de Trabajo: Inventario</key>
+    <value>Working Capital: Inventory</value>
+  </item>
+  <item>
+    <key>Cap. de Trabajo: Caja</key>
+    <value>Working Capital: Cash</value>
+  </item>
+  <item>
+    <key>Cap. de Trabajo: Cartera</key>
+    <value>Working Capital: Accounts Receivables</value>
+  </item>
+  <item>
+    <key>Anexo: Perfil de Deuda</key>
+    <value>Annex: Debt Profile</value>
+  </item>
+  <item>
+    <key>Pedidos y Facturación FIBRAS</key>
+    <value>Orders and Invoicing FIBERS</value>
+  </item>
+  <item>
+    <key>Pedidos y Facturación HORNOS</key>
+    <value>Orders and Invoicing KILNS</value>
+  </item>
+  <item>
+    <key>Estado de Resultados FIBRAS</key>
+    <value>Income Statement FIBERS</value>
+  </item>
+  <item>
+    <key>Estado de Resultados HORNOS</key>
+    <value>Income Statement KILNS</value>
+  </item>
+  <item>
+    <key>Gráfica: Facturación neta / Utilidad de Operación</key>
+    <value>Graph: Net Invoicing / Operations Profit</value>
+  </item>
+  <item>
+    <key>(Copiar)</key>
+    <value>(Copy)</value>
+  </item>
+  <item>
+    <key>Del 1 de Enero al</key>
+    <value>From January 1st to</value>
+  </item>
+  <item>
+    <key> de </key>
+    <value> of </value>
+  </item>
+  <item>
+    <key> del </key>
+    <value> of </value>
+  </item>
+  <item>
+    <key>Deuda y pago. Adeudo NP</key>
+    <value>Debt and Payment. NP Debt</value>
+  </item>
+  <item>
+    <key>Costo de Nóminas</key>
+    <value>Payroll Cost</value>
+  </item>
+  <item>
+    <key>Costo (Miles de USD)</key>
+    <value>Cost (Thousands of USD</value>
+  </item>
+  <item>
+    <key>Cierre Ant</key>
+    <value>Prev Closing</value>
+  </item>
+  <item>
+    <key>Utilidad Operativa por USD Pagado (total)</key>
+    <value>Operations Profit by USD Paid</value>
+  </item>
+  <item>
+    <key>PROMEDIO DE LOS ÚLTIMOS 3 MESES</key>
+    <value>AVERAGE LAST 3 MONTHS</value>
+  </item>
+  <item>
+    <key>Facturación neta / Utilidad de Operación</key>
+    <value>Net Invoicing / Operations Profit</value>
+  </item>
+  <item>
+    <key>Linea</key>
+    <value>Line</value>
+  </item>
+  <item>
+    <key>Interes</key>
+    <value>Interest</value>
+  </item>
+  <item>
+    <key>Disp</key>
+    <value>Available</value>
+  </item>
+  <item>
+    <key>Días Cartera</key>
+    <value>Accounts Receivable Days</value>
+  </item>
+  <item>
+    <key>PAÍS</key>
+    <value>COUNTRY</value>
+  </item>
+  <item>
+    <key>IMPORTE USD</key>
+    <value>USD AMOUNT</value>
+  </item>
+  <item>
+    <key>PORCENTAJE</key>
+    <value>PERCENTAGE</value>
+  </item>
+  <item>
+    <key>RANGO DE VENCIMIENTO</key>
+    <value>OVERDUE RANGE</value>
+  </item>
+  <item>
+    <key>CARTERA GLOBAL TOTAL POR PAIS</key>
+    <value>TOTAL GLOBAL ACCOUNTS RECEIVABLE BY COUNTRY</value>
+  </item>
+  <item>
+    <key>Comportamiento de Caja</key>
+    <value>Cash Behavior</value>
+  </item>
+  <item>
+    <key>Saldo de (miles de USD)</key>
+    <value>Balance (Thousands of USD)</value>
+  </item>
+  <item>
+    <key>Días de Pago Proveedores</key>
+    <value>Suppliers Payment Days</value>
+  </item>
+  <item>
+    <key>Resumen Ejecutivo</key>
+    <value>Executive Summary</value>
+  </item>
+  <item>
+    <key>Gráfica: Utilidad Operativa por USD Pagado</key>
+    <value>Graph: Operations Profit by USD Paid</value>
+  </item>
+  <item>
+    <key>Sin contenido</key>
+    <value>No contents</value>
+  </item>
+  <item>
+    <key>Margen</key>
+    <value>Margin</value>
+  </item>
+  <item>
+    <key>(Exportar a Excel)</key>
+    <value>(Export to Excel)</value>
+  </item>
+  <item>
+    <key>CONCEPTO</key>
+    <value>CONCEPT</value>
+  </item>
+  <item>
+    <key>CONSOLIDADO</key>
+    <value>CONSOLIDATED</value>
+  </item>
+  <item>
+    <key>Últimos 12 meses EBITDA</key>
+    <value>Last 12 months EBITDA</value>
+  </item>
+  <item>
+    <key>FIBRAS TOTAL</key>
+    <value>FIBERS TOTAL</value>
+  </item>
+  <item>
+    <key>GRAN TOTAL</key>
+    <value>GRAND TOTAL</value>
+  </item>
+  <item>
+    <key>Saldo DEUDA al 31-Dic de:</key>
+    <value>DEBT Balance by Dec-31 of:</value>
+  </item>
+  <item>
+    <key>Corto Plazo renovable</key>
+    <value>Short Term Renewable</value>
+  </item>
+  <item>
+    <key>Largo Plazo</key>
+    <value>Long Term</value>
+  </item>
+  <item>
+    <key>Intereses del Año</key>
+    <value>Year Interests</value>
+  </item>
+  <item>
+    <key>Deuda / EBITDA</key>
+    <value>Debt / EBITDA</value>
+  </item>
+  <item>
+    <key>Gasto Financiero</key>
+    <value>Financial Expenses</value>
+  </item>
+  <item>
+    <key>Dividendos</key>
+    <value>Dividends</value>
+  </item>
+  <item>
+    <key>Internacional</key>
+    <value>International</value>
+  </item>
+  <item>
+    <key>No Sindicalizados</key>
+    <value>Exempt</value>
+  </item>
+  <item>
+    <key>Sindicalizados</key>
+    <value>Non-Exempt</value>
+  </item>
+  <item>
+    <key>De Planta</key>
+    <value>Payroll</value>
+  </item>
+  <item>
+    <key>Eventuales</key>
+    <value>Temporary</value>
+  </item>
+  <item>
+    <key>Of. en Extranjero</key>
+    <value>Foreing Of.</value>
+  </item>
+  <item>
+    <key>Total Empleados NUTEC</key>
+    <value>Total Employees NUTEC</value>
+  </item>
+  <item>
+    <key>Total Sindicalizados NUTEC</key>
+    <value>Total Non-Exempt NUTEC</value>
+  </item>
+  <item>
+    <key>Por Administración</key>
+    <value>Contractor</value>
+  </item>
+  <item>
+    <key>Total de Personal NUTEC</key>
+    <value>Total Personnel NUTEC</value>
+  </item>
+  <item>
+    <key>Costo Nomina $$</key>
+    <value>Payroll Costs $$</value>
+  </item>
+  <item>
+    <key>Administración</key>
+    <value>Contractor</value>
+  </item>
+  <item>
+    <key>Total Costo</key>
+    <value>Total Cost</value>
+  </item>
+  <item>
+    <key>HORNOS</key>
+    <value>KILNS</value>
+  </item>
+  <item>
+    <key>FIBRAS</key>
+    <value>FIBERS</value>
+  </item>
+  <item>
+    <key>Caja</key>
+    <value>Cash</value>
+  </item>
+  <item>
+    <key>Pronóstico</key>
+    <value>Forecast</value>
+  </item>
+  <item>
+    <key>Otros Activos Circulantes</key>
+    <value>Other Current Assets</value>
+  </item>
+  <item>
+    <key>Inversión en Acciones</key>
+    <value>Stocks Investment</value>
+  </item>
+  <item>
+    <key>Crédito Mercantil. España</key>
+    <value>Goodwill. Spain</value>
+  </item>
+  <item>
+    <key>Cargos Diferidos y Activo Intangible</key>
+    <value>Deferred Charges and Intangible Assets</value>
+  </item>
+  <item>
+    <key>Pasivo Bancario CP</key>
+    <value>ST Bank Liabilities</value>
+  </item>
+  <item>
+    <key>Otros Pasivos Circulantes</key>
+    <value>Other Current Liabilities</value>
+  </item>
+  <item>
+    <key>Pasivo Bancario LP</key>
+    <value>LT Bank Liabilities</value>
+  </item>
+  <item>
+    <key>Otros Pasivos LP. España</key>
+    <value>LT Other Liabilities. Spain</value>
+  </item>
+  <item>
+    <key>Créditos Diferidos</key>
+    <value>Deferred Credits</value>
+  </item>
+  <item>
+    <key>Utilidades Retenidas</key>
+    <value>Retained Profits</value>
+  </item>
+  <item>
+    <key>Vencimientos de Deuda por año por moneda</key>
+    <value>Debt Expiration by year by currency</value>
+  </item>
+  <item>
+    <key>Deuda</key>
+    <value>Debt</value>
+  </item>
+  <item>
+    <key>Cia</key>
+    <value>Cpny</value>
+  </item>
+  <item>
+    <key>Meses</key>
+    <value>Months</value>
+  </item>
+  <item>
+    <key>Mes&lt;br /&gt;Ant</key>
+    <value>Prev&lt;br /&gt;Month</value>
+  </item>
+  <item>
+    <key>Empleados</key>
+    <value>Employees</value>
+  </item>
+  <item>
+    <key>Utilidad</key>
+    <value>Profit</value>
+  </item>
+  <item>
+    <key>Facturación neta</key>
+    <value>Net Invoicing</value>
+  </item>
+  <item>
+    <key>Banco</key>
+    <value>Bank</value>
+  </item>
+  <item>
+    <key>Días Inventario</key>
+    <value>Inventory Days</value>
+  </item>
+  <item>
+    <key>Valores</key>
+    <value>Values</value>
+  </item>
+  <item>
+    <key>Gasto de Operación, NS y DG. Diario</key>
+    <value>Operation Expenses, NS and GM Daily</value>
+  </item>
+  <item>
+    <key>Días Gastos Fijos pagados con saldo en Bancos</key>
+    <value>Days Fixed Expenses paid with bank balance</value>
+  </item>
+  <item>
+    <key>Reporte Ejecutivo - FIBRAS</key>
+    <value>Executive Report - FIBERS</value>
+  </item>
+  <item>
+    <key>Reporte Ejecutivo - HORNOS</key>
+    <value>Executive Report - KILNS</value>
+  </item>
+  <item>
+    <key>Mesa de Ayuda</key>
+    <value>Help Desk</value>
+  </item>
+
+
+
+
+  <item>
+    <key>Reporte de Saldo de Vacaciones</key>
+    <value>PTOs Balance Report</value>
+  </item>
+  <item>
+    <key>Numero</key>
+    <value>Number</value>
+  </item>
+  <item>
+    <key>Alta</key>
+    <value>Start Date</value>
+  </item>
+  <item>
+    <key>Fecha Mod.</key>
+    <value>Update Date</value>
+  </item>
+  <item>
+    <key>Fecha Saldo Inicial</key>
+    <value>Initial Balance Date</value>
+  </item>
+  <item>
+    <key>Saldo Inicial</key>
+    <value>Initial Balance</value>
+  </item>
+  <item>
+    <key>Vencidas</key>
+    <value>Expired</value>
+  </item>
+  <item>
+    <key>Asignadas</key>
+    <value>Assigned</value>
+  </item>
+  <item>
+    <key>Disfrutadas</key>
+    <value>Enjoyed</value>
+  </item>
+  <item>
+    <key>Proporcional</key>
+    <value>Proportional</value>
+  </item>
+  <item>
+    <key>Saldo Actual</key>
+    <value>Current Balance</value>
+  </item>
+  <item>
+    <key>Dias en Proceso</key>
+    <value>Days in Process</value>
+  </item>
+  <item>
+    <key>Saldo Final</key>
+    <value>Final Balance</value>
+  </item>
+  <item>
+    <key>Reporte de Solicitudes de Permisos</key>
+    <value>Leave Requests Report</value>
+  </item>
+  <item>
+    <key>Nominas</key>
+    <value>Payroll</value>
+  </item>
+  <item>
+    <key>Dias</key>
+    <value>Days</value>
+  </item>
+  <item>
+    <key>Aut. por Jefe</key>
+    <value>Auth. by Manager</value>
+  </item>
+  <item>
+    <key>Autoriza Director</key>
+    <value>Director Authorization</value>
+  </item>
+  <item>
+    <key>Aut. por Director</key>
+    <value>Auth. by Director</value>
+  </item>
+  <item>
+    <key>Fecha Verificación</key>
+    <value>Verification Date</value>
+  </item>
+
+
+
+
+
+
+
+  <item>
+    <key>Reporte de Solicitudes de Vacaciones</key>
+    <value>PTO Requests Report</value>
+  </item>
+  <item>
+    <key>Fecha Otorgadas</key>
+    <value>Given Date</value>
+  </item>
+  <item>
+    <key>Fecha de Vencimiento</key>
+    <value>Expiration Date</value>
+  </item>
+
+
+  <item>
+    <key>Reporte de Vencimiento de Vacaciones</key>
+    <value>PTOs Expiration Report</value>
+  </item>
+  <item>
+    <key>Vacaciones que se vencen en los proximos</key>
+    <value>PTOs that will expire in the next</value>
+  </item>
+  <item>
+    <key>dias</key>
+    <value>days</value>
+  </item>
+  <item>
+    <key>Con vencimiento en los proximos</key>
+    <value>Expiring in the next</value>
+  </item>
+  <item>
+    <key>Dias Disp.</key>
+    <value>Days Available</value>
+  </item>
+  <item>
+    <key>Dias Disponibles</key>
+    <value>Days Available</value>
+  </item>
+  <item>
+    <key>Reporte de Vacaciones Vencidas</key>
+    <value>Expired PTOs Report</value>
+  </item>
+  <item>
+    <key>Fecha Vencimiento</key>
+    <value>Expiration Date</value>
+  </item>
+  <item>
+    <key>Dias Vencidos</key>
+    <value>Expired Days</value>
+  </item>
+  <item>
+    <key>Quincena</key>
+    <value>Biweek</value>
+  </item>
+  <item>
+    <key>Reporte de Recibos de Nomina</key>
+    <value>Payslips Report</value>
+  </item>
+  <item>
+    <key>Fecha</key>
+    <value>Date</value>
+  </item>
+  <item>
+    <key>Olvide mi contraseña</key>
+    <value>Forgot my password</value>
+  </item>
+  <item>
+    <key>Contraseña</key>
+    <value>Password</value>
+  </item>
+  <item>
+    <key>Usuario</key>
+    <value>Username</value>
+  </item>
+  <item>
+    <key>bak.png</key>
+    <value>bak_en.png</value>
+  </item>
+
+  <item>
+    <key>Catalogo de Conceptos de Avisos</key>
+    <value>Posting Categories</value>
+  </item>
+  <item>
+    <key>Descripción ingles</key>
+    <value>English description</value>
+  </item>
+
+  <item>
+    <key>Ingrese los datos del nuevo Concepto</key>
+    <value>Enter the new concept's information</value>
+  </item>
+  <item>
+    <key>Agregar Nuevo Concepto</key>
+    <value>Add New Concept</value>
+  </item>
+  <item>
+    <key>Guardar</key>
+    <value>Save</value>
+  </item>
+  <item>
+    <key>Agregar</key>
+    <value>Add New</value>
+  </item>
+
+
+  <item>
+    <key>Información del Concepto de Gasto</key>
+    <value>Expense Concept Information</value>
+  </item>
+  <item>
+    <key>¿No Deducible?</key>
+    <value>Non-Deductible?</value>
+  </item>
+  <item>
+    <key>Limite Diario</key>
+    <value>Daily Limit</value>
+  </item>
+  <item>
+    <key>¿Permite I.V.A. variable?</key>
+    <value>Allows variable VAT tax?</value>
+  </item>
+  <item>
+    <key>I.V.A.</key>
+    <value>VAT</value>
+  </item>
+  <item>
+    <key>Permite ingresar un monto de I.V.A.</key>
+    <value>Allows manual VAT entry</value>
+  </item>
+  <item>
+    <key>Sin Limite</key>
+    <value>No Limit</value>
+  </item>
+  <item>
+    <key>Cuentas contables</key>
+    <value>Account</value>
+  </item>
+  <item>
+    <key>Desc. Reportes</key>
+    <value>Rep Description</value>
+  </item>
+  <item>
+    <key>Clave</key>
+    <value>Code</value>
+  </item>
+  <item>
+    <key>Información de la necesidad</key>
+    <value>Needs information</value>
+  </item>
+  <item>
+    <key>Catalogo de Tipos de Permiso</key>
+    <value>Leave Types Catalog</value>
+  </item>
+  <item>
+    <key>Ingrese los datos del nuevo Tipo de Permiso</key>
+    <value>Enter the new Leave Type</value>
+  </item>
+  <item>
+    <key>Limite de dias</key>
+    <value>Days Limit</value>
+  </item>
+  <item>
+    <key>Con Goce de Sueldo</key>
+    <value>With Pay</value>
+  </item>
+  <item>
+    <key>Sin Goce de Sueldo</key>
+    <value>Without Pay</value>
+  </item>
+  <item>
+    <key>Con Goce</key>
+    <value>With Pay</value>
+  </item>
+  <item>
+    <key>Sin Goce</key>
+    <value>Without Pay</value>
+  </item>
+  <item>
+    <key>Información de la Forma de pago</key>
+    <value>Payment Type information</value>
+  </item>
+
+
+
+
+
+  <item>
+    <key>Agregar Solicitud de Gastos</key>
+    <value>Add Expense Request</value>
+  </item>
+  <item>
+    <key>Motivo del Rechazo</key>
+    <value>Rejection cause</value>
+  </item>
+  <item>
+    <key>Mis Tareas Pendientes</key>
+    <value>My Pending Tasks</value>
+  </item>
+  <item>
+    <key>Mis Tareas Realizadas</key>
+    <value>Tasks Done</value>
+  </item>
+
+  <item>
+    <key>(De click en los titulos para sortear los datos)</key>
+    <value>(Click on the titles to sort the data)</value>
+  </item>
+  <item>
+    <key>Folio no encontrado</key>
+    <value>Number not found</value>
+  </item>
+  <item>
+    <key>Mis Gastos Por Comprobar</key>
+    <value>My Expenses to Verify</value>
+  </item>
+  <item>
+    <key>Mis Solicitudes Realizadas</key>
+    <value>My Requests</value>
+  </item>
+  <item>
+    <key>Datos Guardados Correctamente</key>
+    <value>Data Saved Successfully</value>
+  </item>
+  <item>
+    <key>Solicitud Autorizada por</key>
+    <value>Request Authorized By</value>
+  </item>
+  <item>
+    <key>Contabilidad</key>
+    <value>Accounting</value>
+  </item>
+  <item>
+    <key>Jefe Directo</key>
+    <value>Direct Manager</value>
+  </item>
+  <item>
+    <key>Recordatorio de entrega de comprobantes de Gastos</key>
+    <value>Reminder to submit expenses</value>
+  </item>
+  <item>
+    <key>Solicitud de Autorizacion de comprobantes de Viaje</key>
+    <value>Request for authorization of travel expenses</value>
+  </item>
+  <item>
+    <key>Realizar anticipo de Gastos</key>
+    <value>Make Money Advance Deposit</value>
+  </item>
+  <item>
+    <key>Comprobantes de Viaje Rechazados</key>
+    <value>Travel Expenses Rejected</value>
+  </item>
+  <item>
+    <key>Solicitud de Gastos</key>
+    <value>Expense Request</value>
+  </item>
+  <item>
+    <key>Viajero</key>
+    <value>Traveler</value>
+  </item>
+  <item>
+    <key>Dias de Viaje</key>
+    <value>Traveling Days</value>
+  </item>
+  <item>
+    <key>Anticipo PESOS</key>
+    <value>Advance PESOS</value>
+  </item>
+  <item>
+    <key>Anticipo USD</key>
+    <value>Advance USD</value>
+  </item>
+  <item>
+    <key>Anticipo EUROS</key>
+    <value>Advance EUROS</value>
+  </item>
+  <item>
+    <key>Seleccione la categoría en que registrara los comprobantes de esta solicitud</key>
+    <value>Select the category corresponding to this request</value>
+  </item>
+  <item>
+    <key>Historial de Autorizaciones</key>
+    <value>Authorization's History</value>
+  </item>
+  <item>
+    <key>Autoriza Jefe (Anticipo)</key>
+    <value>Manager Authorization (Advance)</value>
+  </item>
+  <item>
+    <key>Autoriza Conta (Anticipo)</key>
+    <value>Accounting Authorization (Advance)</value>
+  </item>
+  <item>
+    <key>Autoriza Jefe (Comprobación)</key>
+    <value>Manager Authorization (Verification)</value>
+  </item>
+  <item>
+    <key>Autoriza Conta (Comprobación)</key>
+    <value>Authorize Accouting (Verification)</value>
+  </item>
+  <item>
+    <key>Cancelar la Solicitud</key>
+    <value>Cancel Request</value>
+  </item>
+  <item>
+    <key>Enviar a Autorización</key>
+    <value>Send to Authorization</value>
+  </item>
+  <item>
+    <key>Enviar Solicitud</key>
+    <value>Send Request</value>
+  </item>
+  <item>
+    <key>Regresar</key>
+    <value>Return</value>
+  </item>
+  <item>
+    <key>Seleccione Orden Interna, Centro de Costo o Elemento PEP</key>
+    <value>Select Internal Order, Cost Center or PEP Element</value>
+  </item>
+  <item>
+    <key>Rango de Fechas Invalido</key>
+    <value>Invalid date range</value>
+  </item>
+  <item>
+    <key>No puede seleccionarse a si mismo como Autoriza Jefe o Autoriza Conta</key>
+    <value>You cannot select yourself as Authorizer</value>
+  </item>
+  <item>
+    <key>Favor de capturar y/o revisar la siguiente información</key>
+    <value>Please provide the following information</value>
+  </item>
+  <item>
+    <key>Todos los conceptos registrados deben tener la misma forma de pago.</key>
+    <value>Please enter the same payment type for all concepts</value>
+  </item>
+  <item>
+    <key>Observaciones (Al menos 5 caracteres)</key>
+    <value>Notes (At least 5 characters)</value>
+  </item>
+  <item>
+    <key>Observaciones</key>
+    <value>Notes</value>
+  </item>
+  <item>
+    <key>Forma de Pago</key>
+    <value>Payment Type</value>
+  </item>
+  <item>
+    <key>Tipo de IVA</key>
+    <value>VAT</value>
+  </item>
+  <item>
+    <key>Subtotal</key>
+    <value>Amount</value>
+  </item>
+  <item>
+    <key> -- Seleccione --</key>
+    <value> -- Select --</value>
+  </item>
+  <item>
+    <key>-- Seleccione --</key>
+    <value>-- Select --</value>
+  </item>
+  <item>
+    <key>Favor de ingresar los siguientes datos</key>
+    <value>Please enter the following information</value>
+  </item>
+  <item>
+    <key>Sus comprobantes han sido enviados a autorización</key>
+    <value>Your supporting documents have been sent for authorization</value>
+  </item>
+  <item>
+    <key>Esta solicitud de gastos de viaje esta ligada a una solicitud de reposición</key>
+    <value>This request is linked to a reimbursement request</value>
+  </item>
+  <item>
+    <key>por los comprobantes de compra de materiales capturados por el solicitante</key>
+    <value> by material's supporting purchase documents requested by</value>
+  </item>
+  <item>
+    <key>Comprobantes de Gastos</key>
+    <value>Supporting Documents</value>
+  </item>
+  <item>
+    <key>Orden Interna / C.C. / Elemento PEP</key>
+    <value>Internal Order / Cost Center / PEP Element</value>
+  </item>
+  <item>
+    <key>No. Necesidad</key>
+    <value>Necessity No.</value>
+  </item>
+  <item>
+    <key>Importante: Recuerde cargar sus archivos PDF y XML por cada comprobante.</key>
+    <value>Important: Remember to upload all your receipts for each expense concept.</value>
+  </item>
+  <item>
+    <key>Num. de Personas</key>
+    <value>Quantity of People</value>
+  </item>
+  <item>
+    <key>Num. Personas</key>
+    <value>Quantity of People</value>
+  </item>
+  <item>
+    <key>Total Compra Material</key>
+    <value>Material's Total</value>
+  </item>
+  <item>
+    <key>Total Viáticos</key>
+    <value>Allowance Total</value>
+  </item>
+  <item>
+    <key>¿Seguro que desea enviar esta solicitud a autorización?</key>
+    <value>Are you sure you want to send this request for authorization?</value>
+  </item>
+  <item>
+    <key>Cargar Comprobantes de</key>
+    <value>Upload supporting documents for</value>
+  </item>
+  <item>
+    <key>Seguro que desea eliminar este archivo?</key>
+    <value>Are you sure you want to delete this file?</value>
+  </item>
+  <item>
+    <key>Estatus Actual</key>
+    <value>Current Status</value>
+  </item>
+  <item>
+    <key>Saldo a Favor</key>
+    <value>Credit Balance</value>
+  </item>
+  <item>
+    <key>Saldo a Cargo</key>
+    <value>Debit Balance</value>
+  </item>
+  <item>
+    <key>Saldo</key>
+    <value>Balance</value>
+  </item>
+  <item>
+    <key>Datos guardados con exito</key>
+    <value>Successfully saved</value>
+  </item>
+  <item>
+    <key>El No. de Folio de la solicitud es</key>
+    <value>The number for this request is</value>
+  </item>
+  <item>
+    <key>Buscar Folio</key>
+    <value>Search Number</value>
+  </item>
+  <item>
+    <key>Favor de agregar tus comprobantes</key>
+    <value>Please add the supporting documents</value>
+  </item>
+  <item>
+    <key>T.C.</key>
+    <value>Ex.Rt.</value>
+  </item>
+  <item>
+    <key>Otros Imp</key>
+    <value>Other Taxes</value>
+  </item>
+
+  <item>
+    <key>A1-CARGA DATOS DEL VIAJE</key>
+    <value>A1-TRAVEL EXPENSE REQUEST UPLOAD</value>
+  </item>
+  <item>
+    <key>A2-CONFIRMAR GASTOS DE VIAJE</key>
+    <value>A2-TRAVEL EXPENSE CONFIRMATION</value>
+  </item>
+  <item>
+    <key>A3-AUTORIZAR GASTOS DE VIAJE</key>
+    <value>A3-TRAVEL EXPENSE AUTHORIZATION</value>
+  </item>
+  <item>
+    <key>RG1-COMPROBACIÓN DE GASTOS</key>
+    <value>RG1-PROVING EXPENSES</value>
+  </item>
+  <item>
+    <key>RG2-AUTORIZA COMPROBANTES VIAJE</key>
+    <value>RG2-RECEIPTS AUTHORIZATION</value>
+  </item>
+  <item>
+    <key>RG3-AUTORIZA CONTABILIDAD</key>
+    <value>RG3-ACCOUNTING AUTHORIZATION</value>
+  </item>
+  <item>
+    <key>C1-COMPROBACIÓN DE GASTOS</key>
+    <value>C1-VALIDATE EXPENSES</value>
+  </item>
+  <item>
+    <key>C2-AUTORIZA COMPROBANTES GASTOS</key>
+    <value>C2-AUTHORIZE SUPPORTING DOCUMENTS</value>
+  </item>
+  <item>
+    <key>C3-AUTORIZA CONTABILIDAD</key>
+    <value>C3-ACCOUNTING AUTHORIZATION</value>
+  </item>
+  <item>
+    <key>C4-AUTORIZA DIR. OPERACIONES</key>
+    <value>C4-AUTHORIZE OPERATIONS DIRECTOR</value>
+  </item>
+  <item>
+    <key>C5-AUTORIZA MATERIALES</key>
+    <value>C5-AUTHORIZE MATERIALS</value>
+  </item>
+  <item>
+    <key>C6-AUTORIZA COMIDAS INTERNAS</key>
+    <value>C6-AUTHORIZE INTERNAL MEALS</value>
+  </item>
+  <item>
+    <key>V1-SOLICITUD ENVIADA</key>
+    <value>V1-REQUEST SENT</value>
+  </item>
+  <item>
+    <key>V2-AUTORIZAR VACACIONES</key>
+    <value>V2-PTO AUTHORIZATION</value>
+  </item>
+  <item>
+    <key>V3-VERIFICADO NOMINA</key>
+    <value>V3-PAYROLL VALIDATION</value>
+  </item>
+  <item>
+    <key>P1-SOLICITUD ENVIADA</key>
+    <value>P1-REQUEST SENT</value>
+  </item>
+  <item>
+    <key>P2-AUTORIZACION JEFE</key>
+    <value>P2-SUPERVISOR’S AUTHORIZATION</value>
+  </item>
+  <item>
+    <key>P3-AUTORIZACION GERENTE</key>
+    <value>P3-MANAGER’S AUTHORIZATION</value>
+  </item>
+  <item>
+    <key>P4-AUTORIZACION DIRECTOR</key>
+    <value>P4-DIRECTOR AUTHORIZATION</value>
+  </item>
+  <item>
+    <key>P5-VERIFICADO NOMINA</key>
+    <value>P5-PAYROLL VERIFIED</value>
+  </item>
+
+  <item>
+    <key>PENDIENTE DE COMPROBACIÓN</key>
+    <value>PENDING VERIFICATION</value>
+  </item>
+  <item>
+    <key>Cargar Comprobante XML y PDF</key>
+    <value>Upload receipts</value>
+  </item>
+  <item>
+    <key>Fechas</key>
+    <value>Dates</value>
+  </item>
+  <item>
+    <key>Total de Gastos Convertido a MXP</key>
+    <value>Total expenses in MXP</value>
+  </item>
+  <item>
+    <key>Total de Gastos Convertido a MXN</key>
+    <value>Total expenses in MXN</value>
+  </item>
+  <item>
+    <key>Gastos con Tarjeta de Crédito</key>
+    <value>Credit Card Expenses</value>
+  </item>
+  <item>
+    <key>Total Gastos MXP</key>
+    <value>Total Expenses MXP</value>
+  </item>
+  <item>
+    <key>Gasto Diario Promedio</key>
+    <value>Average Daily Expense</value>
+  </item>
+  <item>
+    <key>Saldos</key>
+    <value>Balance</value>
+  </item>
+  <item>
+    <key>Total Compra Material (MXP)</key>
+    <value>Total Material's Purchase (MXP)</value>
+  </item>
+  <item>
+    <key>Vista previa de la póliza</key>
+    <value>Journal entry preview</value>
+  </item>
+  <item>
+    <key>Fecha de Comprobación</key>
+    <value>Verification Date</value>
+  </item>
+  <item>
+    <key>Anticipo (MXP)</key>
+    <value>Advance (MXP)</value>
+  </item>
+  <item>
+    <key>Total Viáticos (MXP)</key>
+    <value>Total Allowance (MXP)</value>
+  </item>
+  <item>
+    <key>Saldo (MXP)</key>
+    <value>Balance (MXP)</value>
+  </item>
+  <item>
+    <key>(Pte)</key>
+    <value>(Pend)</value>
+  </item>
+  <item>
+    <key>Aut</key>
+    <value>Auth</value>
+  </item>
+  <item>
+    <key>Rech</key>
+    <value>Rej</value>
+  </item>
+  <item>
+    <key>Vista previa de la póliza (Enviada a SAP)</key>
+    <value>Journal entry preview (Sent to SAP)</value>
+  </item>
+  <item>
+    <key>Saldo a Favor (MXP)</key>
+    <value>Credit Balance (MXP)</value>
+  </item>
+  <item>
+    <key>Saldo a Cargo (MXP)</key>
+    <value>Debit Balance (MXP)</value>
+  </item>
+  <item>
+    <key> (SOLICITUD PENDIENTE DE AUTORIZACIÓN)</key>
+    <value> (REQUEST PENDING APPROVAL)</value>
+  </item>
+  <item>
+    <key>O.I./C.C.</key>
+    <value>I.O./C.C.</value>
+  </item>
+  <item>
+    <key>No. Nec.</key>
+    <value>Need</value>
+  </item>
+  <item>
+    <key>F. Pago</key>
+    <value>P. Type</value>
+  </item>
+  <item>
+    <key>IVA</key>
+    <value>TAX</value>
+  </item>
+  <item>
+    <key>Resumen</key>
+    <value>Summary</value>
+  </item>
+  <item>
+    <key>Esta solicitud de reposición, esta ligada a una solicitud de gastos</key>
+    <value>This request is linked to a Travel Expense request</value>
+  </item>
+  <item>
+    <key>Debe</key>
+    <value>Debit</value>
+  </item>
+  <item>
+    <key>Haber</key>
+    <value>Credit</value>
+  </item>
+  <item>
+    <key>De click aquí para abrir la solicitud de gastos en otra ventana</key>
+    <value>Click here to open the request in other window</value>
+  </item>
+  <item>
+    <key>Registre sus comprobantes de gastos y de click en Enviar a Autorización</key>
+    <value>Enter the supporting documents and click on Send to Authorization</value>
+  </item>
+  <item>
+    <key>Solicitud de Reposición de Gastos</key>
+    <value>Expense Reimbursement Request</value>
+  </item>
+  <item>
+    <key>Sus comprobantes han sido enviados a autorización\nEl No. de Folio de la solicitud es</key>
+    <value>Your support documents have been sent to authorization\nThe request number is</value>
+  </item>
+  <item>
+    <key>Solicitud de autorizacion de comprobantes de gastos</key>
+    <value>Request of supporting documents authorization</value>
+  </item>
+  <item>
+    <key>Solicitud de Autorizacion de Comprobantes de Gastos</key>
+    <value>Request of supporting documents authorization</value>
+  </item>
+
+
+  <item>
+    <key>Autoriza Materiales</key>
+    <value>Materials Authorization</value>
+  </item>
+  <item>
+    <key>Autoriza Operaciones</key>
+    <value>Operations Authorization</value>
+  </item>
+  <item>
+    <key>Subir Archivo</key>
+    <value>Upload File</value>
+  </item>
+  <item>
+    <key>Subir Imagen</key>
+    <value>Upload Image</value>
+  </item>
+  <item>
+    <key>PENDIENTE</key>
+    <value>PENDING</value>
+  </item>
+  <item>
+    <key>Comprobantes de Gastos Rechazados</key>
+    <value>Supporting Documents Rejected</value>
+  </item>
+  <item>
+    <key>Solicitud de Reposicion Autorizada por</key>
+    <value>Reimbursement Request Authorized by</value>
+  </item>
+  <item>
+    <key>Rechazar</key>
+    <value>Reject</value>
+  </item>
+  <item>
+    <key>Verificación de Nominas</key>
+    <value>Payroll Verification</value>
+  </item>
+  <item>
+    <key>Historico de Verificación de Nominas</key>
+    <value>Payroll Verification History</value>
+  </item>
+  <item>
+    <key>Solicitud de Permiso Autorizada</key>
+    <value>Leave Request Authorized</value>
+  </item>
+  <item>
+    <key>Solicitud de Permiso Rechazada</key>
+    <value>Leave Request Rejected</value>
+  </item>
+  <item>
+    <key>Solicitud de Gastos de Viaje Rechazada</key>
+    <value>Travel Expense Request Rejected</value>
+  </item>
+
+  <item>
+    <key>Solicitud de Permiso</key>
+    <value>Leave Request</value>
+  </item>
+  <item>
+    <key>Solicitud de Vacaciones Autorizada</key>
+    <value>PTO Request Authorized</value>
+  </item>
+  <item>
+    <key>Solicitud de Vacaciones Rechazada</key>
+    <value>PTO Request Rejected</value>
+  </item>
+  <item>
+    <key>Vecimiento de mis Vacaciones (Dias Totales</key>
+    <value>My PTO Expiration (Total days</value>
+  </item>
+  <item>
+    <key>Agregar Solicitud</key>
+    <value>Add Request</value>
+  </item>
+  <item>
+    <key>Fecha Otorgados</key>
+    <value>Date Given</value>
+  </item>
+  <item>
+    <key>Esta solicitud permite maximo</key>
+    <value>This request allows a maximum of</value>
+  </item>
+  <item>
+    <key>dias.</key>
+    <value>days.</value>
+  </item>
+  <item>
+    <key>Dias Viajados</key>
+    <value>Days Traveled</value>
+  </item>
+  <item>
+    <key>Dias Solicitados</key>
+    <value>Days Requested</value>
+  </item>
+  <item>
+    <key>¿Medio Día?</key>
+    <value>Half Day?</value>
+  </item>
+  <item>
+    <key>Director de Area</key>
+    <value>Area Director</value>
+  </item>
+  <item>
+    <key>Del</key>
+    <value>Of</value>
+  </item>
+  <item>
+    <key>Fechas del Viaje Prolongado</key>
+    <value>Long Trip Dates</value>
+  </item>
+  <item>
+    <key>Cancelar Solicitud</key>
+    <value>Cancel Request</value>
+  </item>
+  <item>
+    <key>Cancelar</key>
+    <value>Cancel</value>
+  </item>
+  <item>
+    <key>Datos guardados con exito\nEl No. de Folio de la solicitud es</key>
+    <value>Request saved. The request number is</value>
+  </item>
+  <item>
+    <key>Permisos por Viaje Prolongado aplican cuando el viaje fue por 60 dias ó más.</key>
+    <value>Long Trip Leave are only for trips of 60 or more days</value>
+  </item>
+  <item>
+    <key>Director Area</key>
+    <value>Area Director</value>
+  </item>
+  <item>
+    <key>No puede seleccionarse a si mismo como Autoriza Jefe</key>
+    <value>You cannot select yourself as Authorizer</value>
+  </item>
+  <item>
+    <key>Proporcional de Dias Solicitados</key>
+    <value>Requested Days Proportional</value>
+  </item>
+  <item>
+    <key>Nomina</key>
+    <value>Payroll</value>
+  </item>
+  <item>
+    <key>Solicitud de Vacaciones</key>
+    <value>PTO Request</value>
+  </item>
+  <item>
+    <key>Con goce de sueldo</key>
+    <value>With Pay</value>
+  </item>
+  <item>
+    <key>Sin goce de sueldo</key>
+    <value>Without Pay</value>
+  </item>
+
+  <item>
+    <key>Se ha generado una Solicitud de Gastos con la siguiente información:</key>
+    <value>A travel expenses request has been generated with the following information:</value>
+  </item>
+  <item>
+    <key>Estimado(a)</key>
+    <value>Dear</value>
+  </item>
+  <item>
+    <key>Para ver sus tareas pendientes click aqui</key>
+    <value>Click here to open your pending tasks</value>
+  </item>
+  <item>
+    <key>Detalle de los comprobantes cargados por el empleado</key>
+    <value>Supporting documents for this request</value>
+  </item>
+  <item>
+    <key>Anticipo</key>
+    <value>Advance</value>
+  </item>
+  <item>
+    <key>Tipo Comprobante</key>
+    <value>Type</value>
+  </item>
+  <item>
+    <key>Monto Euros</key>
+    <value>Euros Amount</value>
+  </item>
+  <item>
+    <key>Monto Dolares</key>
+    <value>Dollars Amount</value>
+  </item>
+  <item>
+    <key>Monto Pesos</key>
+    <value>Pesos Amount</value>
+  </item>
+  <item>
+    <key>Fecha Inicio</key>
+    <value>Start Date</value>
+  </item>
+  <item>
+    <key>Empleado Viaja</key>
+    <value>Traveling Employee</value>
+  </item>
+  <item>
+    <key>Empleado Solicita</key>
+    <value>Requesting Employee</value>
+  </item>
+  <item>
+    <key>Rechazar Solicitud</key>
+    <value>Reject Request</value>
+  </item>
+  <item>
+    <key>Autorizar Solicitud</key>
+    <value>Authorize Request</value>
+  </item>
+  <item>
+    <key>Favor de realizar pago de anticipo para la siguiente solicitud:</key>
+    <value>Please proceed to pay the advance for the following request:</value>
+  </item>
+  <item>
+    <key>Sus Comprobantes de Viaje han sido rechazados</key>
+    <value>Your supporting documents have been rejected</value>
+  </item>
+  <item>
+    <key>Solicitud de Gastos rechazada</key>
+    <value>Expenses Request Rejected</value>
+  </item>
+  <item>
+    <key>Se ha autorizado la siguiente solicitud de permisos:</key>
+    <value>The following leave request has been authorized</value>
+  </item>
+  <item>
+    <key>Se ha autorizado la solicitud de permisos de</key>
+    <value>The following leave request has been authorized for</value>
+  </item>
+  <item>
+    <key>Se ha rechazado la siguiente solicitud de permisos:</key>
+    <value>The following leave request has been rejected</value>
+  </item>
+  <item>
+    <key>Se ha generado una solicitud de permiso con la siguiente información:</key>
+    <value>A leave request has been generated with the following information:</value>
+  </item>
+  <item>
+    <key>OPERACIONES</key>
+    <value>OPERATIONS</value>
+  </item>
+  <item>
+    <key>JEFE DIR</key>
+    <value>MANAGER</value>
+  </item>
+  <item>
+    <key>MATERIALES</key>
+    <value>MATERIALS</value>
+  </item>
+  <item>
+    <key>COMIDAS INTERNAS</key>
+    <value>INTERNAL MEALS</value>
+  </item>
+  <item>
+    <key>Comidas Internas</key>
+    <value>Internal Meals</value>
+  </item>
+
+  <item>
+    <key>CONTABILIDAD</key>
+    <value>ACCOUNTING</value>
+  </item>
+  <item>
+    <key>Sus Comprobantes de Gastos han sido rechazados:</key>
+    <value>Your supporting documents have been rejected</value>
+  </item>
+  <item>
+    <key>Solicitud de Autorizacion de Comprobantes de Viaje con la siguiente informacion</key>
+    <value>Supporting documents authorization request with the following information</value>
+  </item>
+  <item>
+    <key>Solicitud de Autorizacion de Comprobantes de Gastos con la siguiente información:</key>
+    <value>Supporting documents authorization request with the following information:</value>
+  </item>
+  <item>
+    <key>Solicitud de Reposicion rechazada:</key>
+    <value>The following reimbursement request has been rejected</value>
+  </item>
+  <item>
+    <key>Solicitud de Reposicion Rechazada</key>
+    <value>Reimbursement request rejected</value>
+  </item>
+  <item>
+    <key>Solicitud de Reposición Autorizada</key>
+    <value>The following reimbursement request has been authorized</value>
+  </item>
+  <item>
+    <key>Favor de entregar los comprobantes de gastos de la siguiente solicitud:</key>
+    <value>Please deliver the supporting documents for this request:</value>
+  </item>
+  <item>
+    <key>Se ha autorizado la siguiente solicitud de vacaciones:</key>
+    <value>The following PTO request has been authorized:</value>
+  </item>
+  <item>
+    <key>Se ha generado una solicitud de vacaciones con la siguiente información:</key>
+    <value>The following PTO request has been rejected:</value>
+  </item>
+  <item>
+    <key>Se ha rechazado la siguiente solicitud de vacaciones:</key>
+    <value>The following PTO request has been rejected:</value>
+  </item>
+  <item>
+    <key>Viaje Prolongado</key>
+    <value>Long Trip</value>
+  </item>
+  <item>
+    <key>Dolares</key>
+    <value>Dollars</value>
+  </item>
+  <item>
+    <key>Total de las Partidas</key>
+    <value>Totals</value>
+  </item>
+  <item>
+    <key>Autoriza Comidas Internas</key>
+    <value>Authorize Internal Meals</value>
+  </item>
+  <item>
+    <key>Gerente</key>
+    <value>Manager</value>
+  </item>
+  <item>
+    <key>Autorizar Comprobantes</key>
+    <value>Authorize Receipts</value>
+  </item>
+  <item>
+    <key>Rechazar Comprobantes</key>
+    <value>Reject Receipts</value>
+  </item>
+  <item>
+    <key>Empleado Deudor</key>
+    <value>Debtor Employee</value>
+  </item>
+  <item>
+    <key>SOLICITUD CANCELADA</key>
+    <value>REQUEST CANCELLED</value>
+  </item>
+  <item>
+    <key>SOLICITUD RECHAZADA</key>
+    <value>REQUEST REJECTED</value>
+  </item>
+  <item>
+    <key>SOLICITUD AUTORIZADA</key>
+    <value>REQUEST AUTHORIZED</value>
+  </item>
+  <item>
+    <key>Dias Proporcionales</key>
+    <value>Proportional Days</value>
+  </item>
+  <item>
+    <key>Administracion de Contenidos</key>
+    <value>Content Management</value>
+  </item>
+  <item>
+    <key>Publicaciones Visibles</key>
+    <value>Visible Posts</value>
+  </item>
+  <item>
+    <key>Publicaciones Ocultas</key>
+    <value>Hidden Posts</value>
+  </item>
+  <item>
+    <key>Publicaciones Activas</key>
+    <value>Active Posts</value>
+  </item>
+  <item>
+    <key>Publicaciones Borradas</key>
+    <value>Deleted Posts</value>
+  </item>
+  <item>
+    <key>Publicación</key>
+    <value>Post</value>
+  </item>
+  <item>
+    <key>Publicación Visible</key>
+    <value>Post Visible</value>
+  </item>
+  <item>
+    <key>Publicación Oculta</key>
+    <value>Post Hidden</value>
+  </item>
+  <item>
+    <key>Publicación Activa</key>
+    <value>Post Active</value>
+  </item>
+  <item>
+    <key>Publicación Borrada</key>
+    <value>Post Deleted</value>
+  </item>
+  <item>
+    <key>Agregar Publicacion</key>
+    <value>Add Post</value>
+  </item>
+  <item>
+    <key>Titulo</key>
+    <value>Title</value>
+  </item>
+  <item>
+    <key>Titulo (Español)</key>
+    <value>Title (Spanish)</value>
+  </item>
+  <item>
+    <key>Titulo (Ingles)</key>
+    <value>Title (English)</value>
+  </item>
+  <item>
+    <key>Tipo</key>
+    <value>Type</value>
+  </item>
+  <item>
+    <key>Fecha de publicacion</key>
+    <value>Posted date</value>
+  </item>
+  <item>
+    <key>Publicado por</key>
+    <value>Posted by</value>
+  </item>
+  <item>
+    <key>Tipo de publicación</key>
+    <value>Post type</value>
+  </item>
+  <item>
+    <key>Grupo</key>
+    <value>Group</value>
+  </item>
+  <item>
+    <key>Publicación de Contenido</key>
+    <value>Post content</value>
+  </item>
+  <item>
+    <key>Continuar</key>
+    <value>Continue</value>
+  </item>
+  <item>
+    <key>¿Esta publicación permite comentarios de los empleados?</key>
+    <value>Does this post allow employee comments?</value>
+  </item>
+  <item>
+    <key>Titulo de la publicación:</key>
+    <value>Post Title (Spanish)</value>
+  </item>
+  <item>
+    <key>Titulo de la publicación (Ingles):</key>
+    <value>Post Title (English)</value>
+  </item>
+  <item>
+    <key>Categoría</key>
+    <value>Category</value>
+  </item>
+  <item>
+    <key>Vendedor</key>
+    <value>Salesperson</value>
+  </item>
+  <item>
+    <key>Datos de Contacto</key>
+    <value>Contact info</value>
+  </item>
+  <item>
+    <key>Fotografias del aviso</key>
+    <value>Ad Pictures</value>
+  </item>
+  <item>
+    <key>Subir Foto</key>
+    <value>Upload Picture</value>
+  </item>
+  <item>
+    <key>Descripción corta</key>
+    <value>Short description (Spanish)</value>
+  </item>
+  <item>
+    <key>Descripción corta (Ingles)</key>
+    <value>Short description (English)</value>
+  </item>
+  <item>
+    <key>Enlace</key>
+    <value>Link</value>
+  </item>
+  <item>
+    <key>Archivos asociados a esta publicación</key>
+    <value>Files associated to this post</value>
+  </item>
+  <item>
+    <key>Agregar a la publicación</key>
+    <value>Add to post</value>
+  </item>
+  <item>
+    <key>Imagen de Portada</key>
+    <value>Cover Image</value>
+  </item>
+  <item>
+    <key>Guardar Publicación</key>
+    <value>Save Post</value>
+  </item>
+  <item>
+    <key>Texto</key>
+    <value>Text (Spanish)</value>
+  </item>
+  <item>
+    <key>Texto (Ingles)</key>
+    <value>Text (English)</value>
+  </item>
+  <item>
+    <key>Función</key>
+    <value>Function</value>
+  </item>
+  <item>
+    <key>Abrir la liga en la misma página</key>
+    <value>Open in the same page</value>
+  </item>
+  <item>
+    <key>Abrir la liga en una página nueva</key>
+    <value>Open in a new page</value>
+  </item>
+  <item>
+    <key>Ubicación</key>
+    <value>Location</value>
+  </item>
+  <item>
+    <key>Barra lateral izquierda</key>
+    <value>Left side bar</value>
+  </item>
+  <item>
+    <key>Barra lateral derecha</key>
+    <value>Right side bar</value>
+  </item>
+  <item>
+    <key>Usar como portada</key>
+    <value>Use as cover</value>
+  </item>
+  <item>
+    <key>Subir Banner</key>
+    <value>Upload Banner</value>
+  </item>
+  <item>
+    <key>Capacitacion</key>
+    <value>Training</value>
+  </item>
+  <item>
+    <key>Ligas de Interes</key>
+    <value>Links of Interest</value>
+  </item>
+  <item>
+    <key>Vacantes Vigentes</key>
+    <value>Current Job Offers</value>
+  </item>
+  <item>
+    <key>Contenido</key>
+    <value>Contents (Spanish)</value>
+  </item>
+  <item>
+    <key>Contenido (Ingles)</key>
+    <value>Contents (English)</value>
+  </item>
+  <item>
+    <key>Fecha del Evento</key>
+    <value>Event Date</value>
+  </item>
+  <item>
+    <key>Publico</key>
+    <value>Public</value>
+  </item>
+  <item>
+    <key>Privado</key>
+    <value>Private</value>
+  </item>
+  <item>
+    <key>No se encontraron resultados para la busqueda realizada</key>
+    <value>No records were found</value>
+  </item>
+
+
+  <item>
+    <key>Agregar Arrendadora</key>
+    <value>Add Lessor</value>
+  </item>
+  <item>
+    <key>Ingrese los datos siguientes:</key>
+    <value>Enter the following data:</value>
+  </item>
+
+  <item>
+    <key>ARRENDAMIENTOS</key>
+    <value>LEASING</value>
+  </item>
+  <item>
+    <key>ARRENDAMIENTOS CAPTURA</key>
+    <value>LEASING CAPTURE</value>
+  </item>
+  <item>
+    <key>Calendario</key>
+    <value>Calendar</value>
+  </item>
+  <item>
+    <key>Arrendamientos</key>
+    <value>Leasings</value>
+  </item>
+  <item>
+    <key>Arrendadoras</key>
+    <value>Lessors</value>
+  </item>
+  <item>
+    <key>Tipo de Arrendamiento</key>
+    <value>Leasing Types</value>
+  </item>
+  <item>
+    <key>Categorias de Arrendamientos</key>
+    <value>Leasing Categories</value>
+  </item>
+  <item>
+    <key>Categorias de Arrendamiento</key>
+    <value>Leasing Categories</value>
+  </item>
+  <item>
+    <key>Importe de Pagos</key>
+    <value>Payments Amount</value>
+  </item>
+  <item>
+    <key>Categoría de Arrendamiento</key>
+    <value>Leasing Category</value>
+  </item>
+  <item>
+    <key>Importe Total</key>
+    <value>Total Amount</value>
+  </item>
+  <item>
+    <key>Autos</key>
+    <value>Cars</value>
+  </item>
+  <item>
+    <key>Maquinaria</key>
+    <value>Machinery</value>
+  </item>
+  <item>
+    <key>Tecnología</key>
+    <value>Technology</value>
+  </item>
+  <item>
+    <key>Detalle del Arrendamiento</key>
+    <value>Leasing Details</value>
+  </item>
+  <item>
+    <key>Puro</key>
+    <value>Pure</value>
+  </item>
+  <item>
+    <key>Financiero</key>
+    <value>Financial</value>
+  </item>
+  <item>
+    <key>Descripción de los Bienes</key>
+    <value>Goods Description</value>
+  </item>
+  <item>
+    <key>Periodicidad del Arrendamiento</key>
+    <value>Leasing Periodicity</value>
+  </item>
+  <item>
+    <key>Importe de las Parcialidades</key>
+    <value>Partiality Amount</value>
+  </item>
+  <item>
+    <key>Dia de Pago</key>
+    <value>Payment Day</value>
+  </item>
+  <item>
+    <key>Valor de Rescate</key>
+    <value>Rescue Value</value>
+  </item>
+  <item>
+    <key>Importe de I.V.A.</key>
+    <value>VAT Amount</value>
+  </item>
+  <item>
+    <key>Deposito en Garantía</key>
+    <value>Guarantee Deposit</value>
+  </item>
+  <item>
+    <key>Aseguradora</key>
+    <value>Insurance Company</value>
+  </item>
+  <item>
+    <key>Fecha Inicial del Seguro</key>
+    <value>Insurance Start Date</value>
+  </item>
+  <item>
+    <key>Fecha Final del Seguro</key>
+    <value>Insurance End Date</value>
+  </item>
+  <item>
+    <key>Importe del Seguro</key>
+    <value>Insurance Amount</value>
+  </item>
+  <item>
+    <key>Tasa</key>
+    <value>Rate</value>
+  </item>
+  <item>
+    <key>Agregar Categoria de Arrendamiento</key>
+    <value>Add Leasing Category</value>
+  </item>
+  <item>
+    <key>Agregar Tipo de Arrendamiento</key>
+    <value>Add Leasing Type</value>
+  </item>
+  <item>
+    <key>Agregar Solicitud de Reposición</key>
+    <value>Add Reimbursement Request</value>
+  </item>
+  <item>
+    <key>Archivos asociados a este arrendamiento</key>
+    <value>Files related to this leasing</value>
+  </item>
+  <item>
+    <key>Ver</key>
+    <value>View</value>
+  </item>
+  <item>
+    <key>Comentarios para Reporte Ejecutivo</key>
+    <value>Executive Report Notes</value>
+  </item>
+  <item>
+    <key>Tipo Reporte</key>
+    <value>Report Type</value>
+  </item>
+  <item>
+    <key>Captura de Movimientos Financieros</key>
+    <value>Financial Data Capture</value>
+  </item>
+  <item>
+    <key>Notas para Gráfica de Flujo de Efectivo</key>
+    <value>Cash Flow's Graph Notes</value>
+  </item>
+  <item>
+    <key>Archivos asociados a este reporte</key>
+    <value>Files associated</value>
+  </item>
+  <item>
+    <key>Movimientos Reales por Concepto</key>
+    <value>Real Transactions By Concept</value>
+  </item>
+  <item>
+    <key>Calcular Totales</key>
+    <value>Calculate Totals</value>
+  </item>
+  <item>
+    <key>Pronostico de</key>
+    <value>Forecast of</value>
+  </item>
+  <item>
+    <key>Planeado por Concepto</key>
+    <value>Planned by Concept</value>
+  </item>
+  <item>
+    <key>Plan Fibras</key>
+    <value>Fibers Plan</value>
+  </item>
+  <item>
+    <key>Plan Hornos</key>
+    <value>Kilns Plan</value>
+  </item>
+  <item>
+    <key>Créditos</key>
+    <value>Credits</value>
+  </item>
+  <item>
+    <key>Cargos</key>
+    <value>Charges</value>
+  </item>
+  <item>
+    <key>Consolidado</key>
+    <value>Consolidated</value>
+  </item>
+  <item>
+    <key>Distribución del concepto</key>
+    <value>Concept distribution</value>
+  </item>
+  <item>
+    <key>Distribución automatica</key>
+    <value>Automatic distribution</value>
+  </item>
+  <item>
+    <key>Pendiente de Asignar</key>
+    <value>Pending to Assign</value>
+  </item>
+  <item>
+    <key>El perido seleccionado esta cerrado y no se puede modificar</key>
+    <value>The selected period is closed and can not be modified</value>
+  </item>
+  <item>
+    <key>Distribución</key>
+    <value>Distribution</value>
+  </item>
+  <item>
+    <key>Totales</key>
+    <value>Totals</value>
+  </item>
+  <item>
+    <key>Favor de corregir las siguientes diferencias</key>
+    <value>Please correct the following differences</value>
+  </item>
+  <item>
+    <key>Intercompanies otra division: se captura negativo</key>
+    <value>Intercompanies other division: capture as negative</value>
+  </item>
+  <item>
+    <key>Intercompanies misma division: se captura positivo</key>
+    <value>Intercompanies same division: capture as positive</value>
+  </item>
+  <item>
+    <key>Explicación de la variación respecto al mes anterior</key>
+    <value>Explanation of the variation versus last month</value>
+  </item>
+  <item>
+    <key>Saldo en Caja (Balance General)</key>
+    <value>Cash Balance (Balance Sheet)</value>
+  </item>
+  <item>
+    <key>Utilidad Neta (Estado de Resultados)</key>
+    <value>Net Profit (Income Statement)</value>
+  </item>
+  <item>
+    <key>La captura de datos se guardo correctamente</key>
+    <value>The data was entered successfully</value>
+  </item>
+  <item>
+    <key>Realizar Nueva Captura</key>
+    <value>New Data Enter</value>
+  </item>
+  <item>
+    <key>Reporte</key>
+    <value>Report</value>
+  </item>
+  <item>
+    <key>Hornos</key>
+    <value>Kilns</value>
+  </item>
+  <item>
+    <key>Fibras</key>
+    <value>Fibers</value>
+  </item>
+  <item>
+    <key>Reembolso Filiales</key>
+    <value>Affiliate Refund</value>
+  </item>
+  <item>
+    <key>Seleccione Orden Interna, Centro de Costo, Elemento PEP o Reembolso Filiales</key>
+    <value>Select Internal Order Cost Center, PEP Element or Affiliated Refund</value>
+  </item>
+  <item>
+    <key>Empresa Filial</key>
+    <value>Affiliated Company</value>
+  </item>
+  <item>
+    <key>Contrato Maestro</key>
+    <value>Master Contract</value>
+  </item>
+  <item>
+    <key>Número</key>
+    <value>Number</value>
+  </item>
+  <item>
+    <key>Flotilla</key>
+    <value>Fleet</value>
+  </item>
+  <item>
+    <key>Número de Parcialidades</key>
+    <value>Number of partialities</value>
+  </item>
+  <item>
+    <key>Valor/Costo del Bien (Sin IVA)</key>
+    <value>Value/Cost (No VAT)</value>
+  </item>
+  <item>
+    <key>Comisión apertura/Costo Originación</key>
+    <value>Opening Comission</value>
+  </item>
+  <item>
+    <key>Departamento asignado</key>
+    <value>Assigned Department</value>
+  </item>
+  <item>
+    <key>Asignado a</key>
+    <value>Assigned to</value>
+  </item>
+  <item>
+    <key>Prima total financiada</key>
+    <value>Total amount financed</value>
+  </item>
+  <item>
+    <key>No. de póliza</key>
+    <value>Policy number</value>
+  </item>
+  <item>
+    <key>Plazo de la póliza</key>
+    <value>Policy term</value>
+  </item>
+  <item>
+    <key>Monto de la Parcialidad (Sin IVA)</key>
+    <value>Parciality Amount (No VAT)</value>
+  </item>
+  <item>
+    <key>Periodicidad</key>
+    <value>Periodicity</value>
+  </item>
+  <item>
+    <key>Exportar</key>
+    <value>Export</value>
+  </item>
+  <item>
+    <key>Arrendadora</key>
+    <value>Leaser</value>
+  </item>
+  <item>
+    <key>Parcialidades</key>
+    <value>Parcialities</value>
+  </item>
+  <item>
+    <key>Categoria</key>
+    <value>Category</value>
+  </item>
+  <item>
+    <key>Comisión apertura/Costo de Originación</key>
+    <value>Origination Cost</value>
+  </item>
+  <item>
+    <key>Arrendamiento Neto</key>
+    <value>Net Leasing</value>
+  </item>
+  <item>
+    <key>Valor Residual</key>
+    <value>Residual Value</value>
+  </item>
+  <item>
+    <key>Tasa Calculada Mensual</key>
+    <value>Calculated Monthly Rate</value>
+  </item>
+  <item>
+    <key>Tasa Anualizada</key>
+    <value>Annualised Rate</value>
+  </item>
+  <item>
+    <key>Pago Mensual Arrendamiento</key>
+    <value>Leasing Monthly Payment</value>
+  </item>
+  <item>
+    <key>Pago Mensual Seguro</key>
+    <value>Insurance Monthly Payment</value>
+  </item>
+  <item>
+    <key>Pago Mensual Total</key>
+    <value>Total Monthly Payment</value>
+  </item>
+  <item>
+    <key>No. de Poliza</key>
+    <value>Insurance Number</value>
+  </item>
+  <item>
+    <key>Prima Financiada</key>
+    <value>Financed Amount</value>
+  </item>
+  <item>
+    <key>Fecha Inicial Seguro</key>
+    <value>Insurance Start Date</value>
+  </item>
+  <item>
+    <key>Fecha Final Seguro</key>
+    <value>Insurance End Date</value>
+  </item>
+  <item>
+    <key>Gastos Preoperativos NUSA</key>
+    <value>Pre-operation Expenses NUSA</value>
+  </item>
+  <item>
+    <key>Diferidos y Provisiones, neto</key>
+    <value>Net provisions and deferred</value>
+  </item>
+  <item>
+    <key>Gastos de OverHead</key>
+    <value>OverHead Expenses</value>
+  </item>
+  <item>
+    <key>CxP y CxC Intercompañias, neto</key>
+    <value>Net Intercompanies AP and AR</value>
+  </item>
+  <item>
+    <key>Cuando la solicitud cuenta con Anticipos solo se permite utilizar la forma de pago: Efectivo</key>
+    <value>When the request has an Advance you can only choose payment type: Cash</value>
+  </item>
+  <item>
+    <key>Cuando la solicitud cuenta con Anticipos solo se permite utilizar la forma de pago: EF o TE</key>
+    <value>When the request has an Advance you can only choose payment type: Cash</value>
+  </item>
+  <item>
+    <key>No se permite agregar solicitudes para empleados que tengan 2 o mas solicitudes abiertas</key>
+    <value>Cannot add a new request for employees with 2 or more open requests</value>
+  </item>
+
+
+  <item>
+    <key>Hay una diferencia entre los conceptos y el encabezado: </key>
+    <value>There is a difference on the details and header: </value>
+  </item>
+  <item>
+    <key>. Se modificara el encabezado en automático, ¿Seguro que desea continuar?</key>
+    <value>. The header will be updated, do you want to continue?</value>
+  </item>
+
+
+  <item>
+    <key>Anticipos de Gastos de Viaje</key>
+    <value>Travel Expenses Advance Payment</value>
+  </item>
+  <item>
+    <key>No tiene vacaciones por vencer</key>
+    <value>You don’t have PTOs to expire</value>
+  </item>
+
+  <item>
+    <key>Ingrese su nombre de usuario</key>
+    <value>Enter your username</value>
+  </item>
+  <item>
+    <key>Usuario: (Email)</key>
+    <value>Username: (Email)</value>
+  </item>
+  <item>
+    <key>Generar Nuevo Password</key>
+    <value>Generate New Password</value>
+  </item>
+
+  <item>
+    <key>INTERCOMPAÑÍAS, neto</key>
+    <value>INTERCOMPANY, Net</value>
+  </item>
+  <item>
+    <key>    CxC (-) CxP, facturas operativas</key>
+    <value>AR (-) AP, Operative Invoices</value>
+  </item>
+  <item>
+    <key>    CxC (-) CxP, facturas fiscales y préstamos</key>
+    <value>AR (-) AP, Fiscal Invoices</value>
+  </item>
+  <item>
+    <key>&amp;nbsp;&amp;nbsp;&amp;nbsp;    CxC (-) CxP, facturas operativas</key>
+    <value>&amp;nbsp;&amp;nbsp;&amp;nbsp;AR (-) AP, Operative Invoices</value>
+  </item>
+  <item>
+    <key>&amp;nbsp;&amp;nbsp;&amp;nbsp;    CxC (-) CxP, facturas fiscales y préstamos</key>
+    <value>&amp;nbsp;&amp;nbsp;&amp;nbsp;AR (-) AP, Fiscal Invoices</value>
+  </item>
+  <item>
+    <key>Flujo Contable</key>
+    <value>Cash Flow from Accounting</value>
+  </item>
+  <item>
+    <key>Capital de Trabajo (sin porción circulante)</key>
+    <value>Working Capital (w/o current portion)</value>
+  </item>
+  <item>
+    <key>CFE, Gas Natural</key>
+    <value>Utilities</value>
+  </item>
+  <item>
+    <key>PROVEEDORES (Proveedores y Anticipo a Proveedores NETO)</key>
+    <value>ACCOUNTS PAYABLES (Vendors and Advance Payments to Vendors, netted)</value>
+  </item>
+  <item>
+    <key>México</key>
+    <value>Mexico</value>
+  </item>
+  <item>
+    <key>TOTAL por país</key>
+    <value>Accounts Receivables by Country Total</value>
+  </item>
+  <item>
+    <key>TOTAL vencido</key>
+    <value>Overdue Total</value>
+  </item>
+  <item>
+    <key>TOTAL vencido por antigüedad</key>
+    <value>Overdue Aging Total</value>
+  </item>
+  <item>
+    <key>Headcount Total (Nutec + Adm)</key>
+    <value>Headcount Total (Nutec + Contractor)</value>
+  </item>
+  <item>
+    <key>Importe Ajustado TE (MXP)</key>
+    <value>Adjusted Amount TE (MXP)</value>
+  </item>
+  <item>
+    <key>Gráfica: Facturación neta / Utilidad de Operación a partir de 2013</key>
+    <value>Graph: Net Invoicing / Operations Profit from 2013</value>
+  </item>
+  <item>
+    <key>Facturación neta / Utilidad de Operación a partir de 2013</key>
+    <value>Net Invoicing / Operations Profit from 2013</value>
+  </item>
+
+
+  
+  
+  
+  <item>
+    <key>CV1-SOLICITUD DE CANCELACION ENVIADA</key>
+    <value>CV1-CANCELLATION REQUEST SENT</value>
+  </item>
+  <item>
+    <key>CV2-AUTORIZAR CANCELACION DE VACACIONES</key>
+    <value>CV2-PTO CANCELLATION AUTHORIZATION</value>
+  </item>
+  <item>
+    <key>CV3-VERIFICADO NOMINA</key>
+    <value>CV3-PAYROLL CANCELLATION VALIDATION</value>
+  </item>
+  <item>
+    <key>Agregar Solicitud de Cancelación</key>
+    <value>Add PTO Cancellation Request</value>
+  </item>
+  <item>
+    <key>Solicitud de Cancelación de Vacaciones</key>
+    <value>PTO Cancellation Request</value>
+  </item>
+  <item>
+    <key>SOLICITUD DE CANCELACION ENVIADA</key>
+    <value>PTO CANCELLATION REQUEST SENT</value>
+  </item>
+  <item>
+    <key>AUTORIZAR CANCELACION DE VACACIONES</key>
+    <value>PTO CANCELLATION AUTHORIZATION</value>
+  </item>
+  <item>
+    <key>Fechas a Cancelar</key>
+    <value>Dates to Cancel</value>
+  </item>
+  <item>
+    <key>Solicitud Original</key>
+    <value>Original Request</value>
+  </item>
+  <item>
+    <key>* Selecciona una solicitud</key>
+    <value>* Select a request</value>
+  </item>
+  <item>
+    <key>Fechas a cancelar</key>
+    <value>Dates to cancel</value>
+  </item>
+  <item>
+    <key>Se ha autorizado la siguiente cancelación de vacaciones:</key>
+    <value>The following cancellation request has been authorized:</value>
+  </item>
+  <item>
+    <key>Se ha rechazado la siguiente cancelación de vacaciones:</key>
+    <value>The following cancellation request has been rejected:</value>
+  </item>
+  <item>
+    <key>Se ha generado una cancelación de vacaciones con la siguiente información:</key>
+    <value>The following cancellation request has been generated:</value>
+  </item>
+  <item>
+    <key>Folio original:</key>
+    <value>Original number:</value>
+  </item>
+  <item>
+    <key>Solicitud de Cancelación de Vacaciones Autorizada</key>
+    <value>PTO Cancellation Request Authorized</value>
+  </item>
+  <item>
+    <key>Solicitud de Cancelación de Vacaciones Rechazada</key>
+    <value>PTO Cancellation Request Rejected</value>
+  </item>
+  <item>
+    <key>Estado de Resultados FIBRAS por Compañia</key>
+    <value>Income Statement FIBERS by Company</value>
+  </item>
+  <item>
+    <key>Estado de Resultados FIBRAS por Negocio</key>
+    <value>Income Statement FIBERS by Business</value>
+  </item>
+  <item>
+    <key>NF Fibras</key>
+    <value>NF Fibers</value>
+  </item>
+  <item>
+    <key>NUSA Fibras</key>
+    <value>NUSA Fibers</value>
+  </item>
+  <item>
+    <key>NE Fibras</key>
+    <value>NE Fibers</value>
+  </item>
+  <item>
+    <key>NP Fibras</key>
+    <value>NP Fibers</value>
+  </item>
+  <item>
+    <key>NI Fibras</key>
+    <value>NI Fibers</value>
+  </item>
+  <item>
+    <key>Total Fibras</key>
+    <value>Total Fibers</value>
+  </item>
+  <item>
+    <key>Variacion cambiaria deuda</key>
+    <value>Debt Currency Fluctuation</value>
+  </item>
+  <item>
+    <key>Resumen Tarjeta TE</key>
+    <value>TE Card Summary</value>
+  </item>
+
+  <item>
+    <key>Saldo en TE antes de depositar anticipo</key>
+    <value>Balance before advance</value>
+  </item>
+  <item>
+    <key>Anticipo depositado TE</key>
+    <value>Advance via TE</value>
+  </item>
+  <item>
+    <key>Importe ajustado TE</key>
+    <value>Amount Adjusted TE</value>
+  </item>
+  <item>
+    <key>Saldo en TE después del ajuste</key>
+    <value>Balance after adjustment TE</value>
+  </item>
+
+
+  <item><key>Caja Final Dic/</key><value>Cash Opening Balance Dic/</value></item>
+  <item><key>Depreciación y Amortización</key><value>Depreciation &amp; Amortization</value></item>
+  <item><key>Partidas contables</key><value>Accounting movements</value></item>
+  <item><key>Inversión</key><value>Investment</value></item>
+  <item><key>Financiamiento</key><value>Financing</value></item>
+  <item><key>Caja Final </key><value>Cash Closing Balance </value></item>
+  <item><key>Activo y Pasivo Diferido, neto</key><value>Deferred assets &amp; liabilities, net</value></item>
+  <item><key>Provisiones. Impuestos, ER</key><value>Provisions Tax, IS</value></item>
+  <item><key>Provisiones. Financieros, ER</key><value>Provisions Financials, IS</value></item>
+  <item><key>Under / Over Billing</key><value>Under / Over Billing</value></item>
+  <item><key>Variación Cambiaria no realizada / por Deuda</key><value>Debt currency fluctuation</value></item>
+  <item><key>Partidas Contables</key><value>Accounting Movements</value></item>
+  <item><key>Cuentas por Cobrar (Clientes y Deudores)</key><value>Accounts Receivables (Customers)</value></item>
+  <item><key>Cuentas por Cobrar (Depósitos en Garantía)</key><value>Accounts Receivables (warranty deposits)</value></item>
+  <item><key>Impuestos Pagados</key><value>Tax</value></item>
+  <item><key>Capex, neto</key><value>Capex, net</value></item>
+  <item><key>Dividendos, neto</key><value>Dividends, net</value></item>
+  <item><key>Amortización Pasivo</key><value>Debt Payments</value></item>
+  <item><key>Pago de Intereses Bancarios</key><value>Interest Payments</value></item>
+  <item><key>NOTA: No incluye Nutec Ibar</key><value>NOTE: Nutec Ibar not included</value></item>
+  
+  <item><key>INTERCOMPAÑÍAS. CxC (-) CxP, facturas operativas</key><value>Intercompany AR (-) AP, operative invoices</value></item>
+  <item><key>INTERCOMPAÑÍAS. CxC (-) CxP, facturas fiscales y préstamos</key><value>Intercompany AR (-) AP, fiscal &amp; debt</value></item>
+  <item>
+    <key>Documentos por Pagar LP</key>
+    <value>Other LT Documents</value>
+  </item>
+  <item>
+    <key>Dividendos pagados a Accionistas</key>
+    <value>Shareholders Dividends Paid</value>
+  </item>
+  <item>
+    <key>Dividendos por pagar a Accionistas</key>
+    <value>Shareholders Dividends to Pay</value>
+  </item>
+
+  <item>
+    <key>Dividendos pagados</key>
+    <value>Dividends paid</value>
+  </item>
+  <item>
+    <key>Dividendos por pagar</key>
+    <value>Dividends to pay</value>
+  </item>
+  <item>
+    <key>IVA a Favor</key>
+    <value>Creditable VAT</value>
+  </item>
+  <item>
+    <key>ISR a Favor</key>
+    <value>Receivable taxes IRS</value>
+  </item>
+  <item>
+    <key>IVA Trasladado Diferido</key>
+    <value>Payable VAT</value>
+  </item>
+  <item>
+    <key>ISR por Pagar Anual</key>
+    <value>Anual Payable IRS</value>
+  </item>
+</translations>

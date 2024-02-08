@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Response" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Response" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities" />
+  <xs:complexType name="CardBalanceAssignmentResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseResponse">
+        <xs:sequence>
+          <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities" minOccurs="0" name="CardBalanceDTOList" nillable="true" type="q1:ArrayOfCardBalanceDTO" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CardBalanceAssignmentResponse" nillable="true" type="tns:CardBalanceAssignmentResponse" />
+  <xs:complexType name="BaseResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Success" type="xs:boolean" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities" minOccurs="0" name="ErrorList" nillable="true" type="q2:ArrayOfErrorDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="BaseResponse" nillable="true" type="tns:BaseResponse" />
+  <xs:complexType name="CardBalanceAdjustmentResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseResponse">
+        <xs:sequence>
+          <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities" minOccurs="0" name="CardBalanceDTOList" nillable="true" type="q3:ArrayOfCardBalanceDTO" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CardBalanceAdjustmentResponse" nillable="true" type="tns:CardBalanceAdjustmentResponse" />
+  <xs:complexType name="CardGetListResponse">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseResponse">
+        <xs:sequence>
+          <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities" minOccurs="0" name="CardList" nillable="true" type="q4:ArrayOfCardDetailDTO" />
+          <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities" minOccurs="0" name="Paging" nillable="true" type="q5:PagingDTO" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CardGetListResponse" nillable="true" type="tns:CardGetListResponse" />
+</xs:schema>

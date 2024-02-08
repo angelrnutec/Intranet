@@ -1,0 +1,11 @@
+﻿Public Class NoAutorizado
+    Inherits System.Web.UI.Page
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Session("idEmpleado") Is Nothing Then
+            Response.Redirect("/Login.aspx?URL=" + Request.Url.PathAndQuery)
+        End If
+
+    End Sub
+
+End Class

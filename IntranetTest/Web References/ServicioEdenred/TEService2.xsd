@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="urn:ERMX.Services" elementFormDefault="qualified" targetNamespace="urn:ERMX.Services" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Request" />
+  <xs:import schemaLocation="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Response" />
+  <xs:import schemaLocation="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities" />
+  <xs:element name="CardBalanceAssignment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Request" minOccurs="0" name="request" nillable="true" type="q1:CardBalanceAssignmentRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CardBalanceAssignmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Response" minOccurs="0" name="CardBalanceAssignmentResult" nillable="true" type="q2:CardBalanceAssignmentResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CardBalanceAdjustment">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Request" minOccurs="0" name="request" nillable="true" type="q3:CardBalanceAdjustmentRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CardBalanceAdjustmentResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Response" minOccurs="0" name="CardBalanceAdjustmentResult" nillable="true" type="q4:CardBalanceAdjustmentResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CardGetList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Request" minOccurs="0" name="request" nillable="true" type="q5:CardGetListRequest" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CardGetListResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Response" minOccurs="0" name="CardGetListResult" nillable="true" type="q6:CardGetListResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TestToConsume">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities" minOccurs="0" name="request" nillable="true" type="q7:TestRequestDTO" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="TestToConsumeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities.Response" minOccurs="0" name="TestToConsumeResult" nillable="true" type="q8:BaseResponse" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,157 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.32916.344
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Intranet", "Intranet\Intranet.vbproj", "{FAD01D94-FDF5-42DF-BC3D-FA85A66274E5}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IntranetBL", "IntranetBL\IntranetBL.vbproj", "{8FC6DFA4-9D30-49B2-8164-E52B8BBA9548}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IntranetDA", "IntranetDA\IntranetDA.vbproj", "{4696DC62-E062-435D-84EE-B076ED23F3EE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "IntranetTest", "IntranetTest\IntranetTest.vbproj", "{DFBA307E-2E8F-4672-A152-BBB7176F8B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketEmpresarialPruebas", "TicketEmpresarialPruebas\TicketEmpresarialPruebas.csproj", "{D88E5CD3-436E-45D0-A874-EBE9D4670EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EslabonIntranetSync", "EslabonIntranetSync\EslabonIntranetSync.csproj", "{2E23808D-68F4-4948-AF74-B3118FB88981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketEmpresarial.ReporteMovimientos", "TicketEmpresarial.ReporteMovimientos\TicketEmpresarial.ReporteMovimientos.csproj", "{97311C0B-190D-4CD6-9133-1B566F36CAA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportMovimientosAMEX", "ImportMovimientosAMEX\ImportMovimientosAMEX.csproj", "{5D37EDAB-E303-4D1A-BD38-9C62309D1DBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportMovimientosEDENRED", "ImportMovimientosEDENRED\ImportMovimientosEDENRED.csproj", "{5184DB65-292F-4CEB-B7E0-549D576A205C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeveltecExtractUUID", "DeveltecExtractUUID\DeveltecExtractUUID.csproj", "{85FA692F-8D3B-4D14-BBE1-1774C107A871}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAD01D94-FDF5-42DF-BC3D-FA85A66274E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD01D94-FDF5-42DF-BC3D-FA85A66274E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD01D94-FDF5-42DF-BC3D-FA85A66274E5}.Debug|x86.ActiveCfg = Debug|x86
+		{FAD01D94-FDF5-42DF-BC3D-FA85A66274E5}.Debug|x86.Build.0 = Debug|x86
+		{FAD01D94-FDF5-42DF-BC3D-FA85A66274E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD01D94-FDF5-42DF-BC3D-FA85A66274E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD01D94-FDF5-42DF-BC3D-FA85A66274E5}.Release|x86.ActiveCfg = Release|x86
+		{FAD01D94-FDF5-42DF-BC3D-FA85A66274E5}.Release|x86.Build.0 = Release|x86
+		{8FC6DFA4-9D30-49B2-8164-E52B8BBA9548}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FC6DFA4-9D30-49B2-8164-E52B8BBA9548}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FC6DFA4-9D30-49B2-8164-E52B8BBA9548}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8FC6DFA4-9D30-49B2-8164-E52B8BBA9548}.Debug|x86.Build.0 = Debug|Any CPU
+		{8FC6DFA4-9D30-49B2-8164-E52B8BBA9548}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FC6DFA4-9D30-49B2-8164-E52B8BBA9548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FC6DFA4-9D30-49B2-8164-E52B8BBA9548}.Release|x86.ActiveCfg = Release|Any CPU
+		{8FC6DFA4-9D30-49B2-8164-E52B8BBA9548}.Release|x86.Build.0 = Release|Any CPU
+		{4696DC62-E062-435D-84EE-B076ED23F3EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4696DC62-E062-435D-84EE-B076ED23F3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4696DC62-E062-435D-84EE-B076ED23F3EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4696DC62-E062-435D-84EE-B076ED23F3EE}.Debug|x86.Build.0 = Debug|Any CPU
+		{4696DC62-E062-435D-84EE-B076ED23F3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4696DC62-E062-435D-84EE-B076ED23F3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4696DC62-E062-435D-84EE-B076ED23F3EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{4696DC62-E062-435D-84EE-B076ED23F3EE}.Release|x86.Build.0 = Release|Any CPU
+		{DFBA307E-2E8F-4672-A152-BBB7176F8B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBA307E-2E8F-4672-A152-BBB7176F8B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBA307E-2E8F-4672-A152-BBB7176F8B76}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DFBA307E-2E8F-4672-A152-BBB7176F8B76}.Debug|x86.Build.0 = Debug|Any CPU
+		{DFBA307E-2E8F-4672-A152-BBB7176F8B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBA307E-2E8F-4672-A152-BBB7176F8B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBA307E-2E8F-4672-A152-BBB7176F8B76}.Release|x86.ActiveCfg = Release|Any CPU
+		{DFBA307E-2E8F-4672-A152-BBB7176F8B76}.Release|x86.Build.0 = Release|Any CPU
+		{D88E5CD3-436E-45D0-A874-EBE9D4670EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D88E5CD3-436E-45D0-A874-EBE9D4670EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D88E5CD3-436E-45D0-A874-EBE9D4670EF6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D88E5CD3-436E-45D0-A874-EBE9D4670EF6}.Debug|x86.Build.0 = Debug|Any CPU
+		{D88E5CD3-436E-45D0-A874-EBE9D4670EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D88E5CD3-436E-45D0-A874-EBE9D4670EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D88E5CD3-436E-45D0-A874-EBE9D4670EF6}.Release|x86.ActiveCfg = Release|Any CPU
+		{D88E5CD3-436E-45D0-A874-EBE9D4670EF6}.Release|x86.Build.0 = Release|Any CPU
+		{2E23808D-68F4-4948-AF74-B3118FB88981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E23808D-68F4-4948-AF74-B3118FB88981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E23808D-68F4-4948-AF74-B3118FB88981}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2E23808D-68F4-4948-AF74-B3118FB88981}.Debug|x86.Build.0 = Debug|Any CPU
+		{2E23808D-68F4-4948-AF74-B3118FB88981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E23808D-68F4-4948-AF74-B3118FB88981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E23808D-68F4-4948-AF74-B3118FB88981}.Release|x86.ActiveCfg = Release|Any CPU
+		{2E23808D-68F4-4948-AF74-B3118FB88981}.Release|x86.Build.0 = Release|Any CPU
+		{97311C0B-190D-4CD6-9133-1B566F36CAA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97311C0B-190D-4CD6-9133-1B566F36CAA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97311C0B-190D-4CD6-9133-1B566F36CAA4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{97311C0B-190D-4CD6-9133-1B566F36CAA4}.Debug|x86.Build.0 = Debug|Any CPU
+		{97311C0B-190D-4CD6-9133-1B566F36CAA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97311C0B-190D-4CD6-9133-1B566F36CAA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97311C0B-190D-4CD6-9133-1B566F36CAA4}.Release|x86.ActiveCfg = Release|Any CPU
+		{97311C0B-190D-4CD6-9133-1B566F36CAA4}.Release|x86.Build.0 = Release|Any CPU
+		{5D37EDAB-E303-4D1A-BD38-9C62309D1DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D37EDAB-E303-4D1A-BD38-9C62309D1DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D37EDAB-E303-4D1A-BD38-9C62309D1DBD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D37EDAB-E303-4D1A-BD38-9C62309D1DBD}.Debug|x86.Build.0 = Debug|Any CPU
+		{5D37EDAB-E303-4D1A-BD38-9C62309D1DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D37EDAB-E303-4D1A-BD38-9C62309D1DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D37EDAB-E303-4D1A-BD38-9C62309D1DBD}.Release|x86.ActiveCfg = Release|Any CPU
+		{5D37EDAB-E303-4D1A-BD38-9C62309D1DBD}.Release|x86.Build.0 = Release|Any CPU
+		{5184DB65-292F-4CEB-B7E0-549D576A205C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5184DB65-292F-4CEB-B7E0-549D576A205C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5184DB65-292F-4CEB-B7E0-549D576A205C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5184DB65-292F-4CEB-B7E0-549D576A205C}.Debug|x86.Build.0 = Debug|Any CPU
+		{5184DB65-292F-4CEB-B7E0-549D576A205C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5184DB65-292F-4CEB-B7E0-549D576A205C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5184DB65-292F-4CEB-B7E0-549D576A205C}.Release|x86.ActiveCfg = Release|Any CPU
+		{5184DB65-292F-4CEB-B7E0-549D576A205C}.Release|x86.Build.0 = Release|Any CPU
+		{85FA692F-8D3B-4D14-BBE1-1774C107A871}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85FA692F-8D3B-4D14-BBE1-1774C107A871}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85FA692F-8D3B-4D14-BBE1-1774C107A871}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{85FA692F-8D3B-4D14-BBE1-1774C107A871}.Debug|x86.Build.0 = Debug|Any CPU
+		{85FA692F-8D3B-4D14-BBE1-1774C107A871}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85FA692F-8D3B-4D14-BBE1-1774C107A871}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85FA692F-8D3B-4D14-BBE1-1774C107A871}.Release|x86.ActiveCfg = Release|Any CPU
+		{85FA692F-8D3B-4D14-BBE1-1774C107A871}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F1EC186-3714-4C65-8D12-BE9F214A73C4}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://develtec.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DeveltecExtractUUID\\DeveltecExtractUUID.csproj
+		SccProjectName1 = DeveltecExtractUUID
+		SccLocalPath1 = DeveltecExtractUUID
+		SccProjectUniqueName2 = EslabonIntranetSync\\EslabonIntranetSync.csproj
+		SccProjectName2 = EslabonIntranetSync
+		SccLocalPath2 = EslabonIntranetSync
+		SccProjectUniqueName3 = ImportMovimientosAMEX\\ImportMovimientosAMEX.csproj
+		SccProjectName3 = ImportMovimientosAMEX
+		SccLocalPath3 = ImportMovimientosAMEX
+		SccProjectUniqueName4 = ImportMovimientosEDENRED\\ImportMovimientosEDENRED.csproj
+		SccProjectName4 = ImportMovimientosEDENRED
+		SccLocalPath4 = ImportMovimientosEDENRED
+		SccProjectUniqueName5 = Intranet\\Intranet.vbproj
+		SccProjectName5 = Intranet
+		SccLocalPath5 = Intranet
+		SccProjectUniqueName6 = IntranetBL\\IntranetBL.vbproj
+		SccProjectName6 = IntranetBL
+		SccLocalPath6 = IntranetBL
+		SccProjectUniqueName7 = IntranetDA\\IntranetDA.vbproj
+		SccProjectName7 = IntranetDA
+		SccLocalPath7 = IntranetDA
+		SccProjectUniqueName8 = IntranetTest\\IntranetTest.vbproj
+		SccProjectName8 = IntranetTest
+		SccLocalPath8 = IntranetTest
+		SccProjectUniqueName9 = TicketEmpresarial.ReporteMovimientos\\TicketEmpresarial.ReporteMovimientos.csproj
+		SccProjectName9 = TicketEmpresarial.ReporteMovimientos
+		SccLocalPath9 = TicketEmpresarial.ReporteMovimientos
+		SccProjectUniqueName10 = TicketEmpresarialPruebas\\TicketEmpresarialPruebas.csproj
+		SccProjectName10 = TicketEmpresarialPruebas
+		SccLocalPath10 = TicketEmpresarialPruebas
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ERMX.SSOServices.TE.Entities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://demo.edenred.com.mx/Desarrollo/TEServicesFacade/TEService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="ArrayOfCardBalanceDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CardBalanceDTO" nillable="true" type="tns:CardBalanceDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCardBalanceDTO" nillable="true" type="tns:ArrayOfCardBalanceDTO" />
+  <xs:complexType name="CardBalanceDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CardNumber" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="AuthorizationNumber" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CardBalanceDTO" nillable="true" type="tns:CardBalanceDTO" />
+  <xs:complexType name="SecurityDTO">
+    <xs:sequence>
+      <xs:element name="ExternalClientId" nillable="true" type="xs:string" />
+      <xs:element name="Token" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="SecurityDTO" nillable="true" type="tns:SecurityDTO" />
+  <xs:complexType name="ArrayOfErrorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ErrorDTO" nillable="true" type="tns:ErrorDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfErrorDTO" nillable="true" type="tns:ArrayOfErrorDTO" />
+  <xs:complexType name="ErrorDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Code" type="xs:unsignedInt" />
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TypeError" type="xs:unsignedInt" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ErrorDTO" nillable="true" type="tns:ErrorDTO" />
+  <xs:simpleType name="CardGetListFilter">
+    <xs:annotation>
+      <xs:appinfo>
+        <ActualType Name="unsignedInt" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="ByEmployerId" />
+      <xs:enumeration value="ByCardNumber" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="CardGetListFilter" nillable="true" type="tns:CardGetListFilter" />
+  <xs:complexType name="PagingDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="All" type="xs:boolean" />
+      <xs:element minOccurs="0" name="PageNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="PageRecords" type="xs:int" />
+      <xs:element minOccurs="0" name="TotalRecords" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PagingDTO" nillable="true" type="tns:PagingDTO" />
+  <xs:complexType name="ArrayOfCardDetailDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CardDetailDTO" nillable="true" type="tns:CardDetailDTO" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCardDetailDTO" nillable="true" type="tns:ArrayOfCardDetailDTO" />
+  <xs:complexType name="CardDetailDTO">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:CardBalanceDTO">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="CardStatus" nillable="true" type="tns:CardStatusDTO" />
+          <xs:element minOccurs="0" name="CardName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="CardDetailDTO" nillable="true" type="tns:CardDetailDTO" />
+  <xs:complexType name="CardStatusDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Status" type="ser:char" />
+      <xs:element minOccurs="0" name="StatusDescription" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CardStatusDTO" nillable="true" type="tns:CardStatusDTO" />
+  <xs:complexType name="TestRequestDTO">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Token" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TestRequestDTO" nillable="true" type="tns:TestRequestDTO" />
+</xs:schema>
